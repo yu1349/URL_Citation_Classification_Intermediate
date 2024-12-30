@@ -7,7 +7,7 @@ TEST_SEED = 111
 TEST_SIZE = 0.1
 TRAIN_SEED = 12539
 TRAIN_SIZE = 1/9
-DATA_PATH = 'path/to/data'
+DATA_PATH = '../data/all_data.csv'
 
 ROLE_MAP = {'Method': 0,
             'Material': 1,

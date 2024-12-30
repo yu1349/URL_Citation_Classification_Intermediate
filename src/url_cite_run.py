@@ -289,7 +289,8 @@ def cite_main(n_sample=300_000, seed=111, fine_tune_only=False):
 if __name__ == '__main__':
     data_num_range = list(range(1_000, 5_000, 1_000)) + list(range(5_000, 100_000, 5_000))
     # seeds = [111, 5374, 93279]
-    seeds = [7429, 429834]    
+    # seeds = [7429, 429834]
+    seeds = [111]
     for seed in seeds:
         for data_num in data_num_range:
             print(f"start {data_num} {seed}")
