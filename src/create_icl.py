@@ -125,21 +125,22 @@ def create_icl(train_df:pd.DataFrame, test_df:pd.DataFrame, method:str, k:int=5)
 def main():
     csv_dataset = pd.read_csv("/data/group1/z40436a/ME/URL_Citation_Classification_Intermediate/data/all_data.csv", encoding="utf-8")
 
-    seed = 111 # fixed
-    train_df, eval_df = train_test_split(csv_dataset, test_size = 0.1, random_state=seed)
-    print("train_data_size:::", len(train_df))
-    print("test_data_size:::", len(eval_df))
+    seeds = [111, 5374, 93279]
+    for seed in seeds:
+        train_df, eval_df = train_test_split(csv_dataset, test_size = 0.1, random_state=seed)
+        print("train_data_size:::", len(train_df))
+        print("test_data_size:::", len(eval_df))
 
-    # methods = ["random", "bm25", "encoder"]
-    methods = ["encoder"]
-    for method in methods:
-        icls = create_icl(train_df, eval_df, method=method)
+        methods = ["random", "bm25", "encoder"]
+        # methods = ["encoder"]
+        for method in methods:
+            icls = create_icl(train_df, eval_df, method=method)
 
-        output_dir = f"/data/group1/z40436a/ME/URL_Citation_Classification_Intermediate/icl/{method}"
-        with open(f"{output_dir}/{str(seed)}.txt", "w") as jsonl_file:
-            for icl in icls:
-                json.dump(icl, jsonl_file)
-                jsonl_file.write("\n")
+            output_dir = f"/data/group1/z40436a/ME/URL_Citation_Classification_Intermediate/icl/{method}"
+            with open(f"{output_dir}/{str(seed)}.txt", "w") as jsonl_file:
+                for icl in icls:
+                    json.dump(icl, jsonl_file)
+                    jsonl_file.write("\n")
 
 if __name__ == "__main__":
     main()
