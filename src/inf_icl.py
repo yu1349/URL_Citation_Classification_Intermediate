@@ -50,7 +50,7 @@ class Command:
         '''
         icl_method: random, bm25, encoder
         seed: [111, 5374, 93279]
-        model_name: ["meta-llama/Llama-3.1-8B-Instruct", ]
+        model_name: ["meta-llama/Llama-3.1-8B-Instruct", "google/gemma-2-9b-it", "mistralai/Mistral-Nemo-Instruct-2407"]
         '''
         self.icl_method = icl_method
         self.seed = int(seed)
@@ -102,7 +102,7 @@ def read_icl(file_path:str) -> list[list[int]]:
             icl_idxs.append(json.loads(line))
     return icl_idxs
 
-def create_inst(train_df:pd.DataFrame, test_df:pd.DataFrame, icl_ids:list[list[int]], k:int=5) -> list[list[dict[str, str]]]:
+def create_inst(train_df:pd.DataFrame, test_df:pd.DataFrame, icl_ids:list[list[int]], k:int=5, model_name:str=None) -> list[list[dict[str, str]]]:
     texts = []
     
     train_replaced_sentences = replace_tag(train_df['citation-paragraph'])
@@ -111,10 +111,10 @@ def create_inst(train_df:pd.DataFrame, test_df:pd.DataFrame, icl_ids:list[list[i
     test_replaced_sentences = replace_tag(test_df['citation-paragraph'])
     test_conts = get_3sent(test_replaced_sentences)
 
+    reset_idx = 0
     for test_cont, (i, row) in zip(test_conts, test_df.iterrows()):
-        reset_idx = 0
-        instruction = [
-            {"role":"System", "content": f"""Your task is to classify the type of artifact (TYPE) reffered to the URL and the citation reason (FUNCTION). I will provide you with a URL and citation context, section titles.\n
+        instruction = []
+        instruct_text = f"""Your task is to classify the type of artifact (TYPE) reffered to the URL and the citation reason (FUNCTION). I will provide you with a URL and citation context, section titles.\n
 Here is the classification schema for the artifact type:
 1. Tool: toolkit, software, system
 2. Code: codebase, library, API
@@ -133,9 +133,21 @@ Here is the classification schema for the citation reason:
 3. Compare: Compared with other resources
 4. Extend: Used in the citing paper’s research but are improved, upgraded, or changed during the research
 5. Introduce: The resources or the related information
-6. Other: The URL citation does not belong to the above categories"""}
-        ]
+6. Other: The URL citation does not belong to the above categories"""
+        
+        # Model selection
+        if "Llama-3.1" in model_name:
+            instruction.append({"role":"System", "content": instruct_text})
+        elif "gemma-2" in model_name or "Mistral" in model_name:
+            pass
+        else:
+            print("REWRITE ME!!!")
 
+        # REWRITE ME!!!
+        # with open('/data/group1/z40436a/ME/URL_Citation_Classification_Intermediate/result/log.txt', 'a') as log_file:
+        #     log_file.write(str(icl_ids[reset_idx])+'\n')
+
+        # k-shot settings
         if k == 0:
             pass
         elif k > 0 and k <=5:
@@ -148,11 +160,15 @@ URL: {icl_df['url']}
 Citation Context: {train_conts[icl_idx]}
 Footnote or Reference text (if exists): {icl_df['citation-info']}
 Section Titles (if exists): {icl_df['passage-title']}"""
+                # gemma-2 does not support role of system
+                if top_k == 1 and ("gemma-2" in model_name or "Mistral" in model_name):
+                    icl_input = instruct_text + "\n" + icl_input
                 instruction.append({"role":"user", "content": icl_input})
                 instruction.append({"role":"assistant", "content": f"""TYPE: {icl_df['type']}\nFUNCTION: {row['function'].split("（")[0]}"""})
         else:
             print("error")
 
+        # create test input
         test_input = f"""Please classify the artifact type and the citation reason for the following URL and citation sentence.
 URL: {row['url']}
 Citation Context: {test_cont}
@@ -163,6 +179,10 @@ Section Titles (if exists): {row['passage-title']}"""
         reset_idx += 1
 
         texts.append(instruction)
+
+        #REWRITE ME!!!
+        # if reset_idx > 5:
+        #     break
     return texts
 
 
@@ -188,9 +208,9 @@ def main(c:Command) -> None:
 
     for k in range(1,5+1):
         print(f"###{k}shot")
-        eval_texts = create_inst(train_df, eval_df, icl_idxs, k)
+        eval_texts = create_inst(train_df, eval_df, icl_idxs, k, c.model_name)
 
-        ### REWRITE ME!!!
+        ### REWRITE ME!!!->OK
         prompts = eval_texts
         # with open('./log.txt', 'a') as log_file:
         #     log_file.write("===eval_text===")
@@ -210,10 +230,10 @@ def main(c:Command) -> None:
         # elapse time
         elapsed_time = end_time - start_time
 
-        # log
+        # REWRITE ME!!!
         # with open('./log.txt', 'a') as log_file:
-        #     log_file.write("===output===")
-        #     log_file.write(str(outputs))
+        #     log_file.write("===output===\n")
+        #     log_file.write(str(outputs)+"\n")
 
         with open(f"{RES_DIR}/{c.model_name}/{c.icl_method}/{str(c.seed)}_{str(k)}shot.json", "w") as output_file:
             # json.dump(generated_texts, output_file, indent=4)
