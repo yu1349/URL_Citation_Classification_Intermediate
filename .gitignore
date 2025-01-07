@@ -1,1 +1,4 @@
 job/log/*
+job/log_bug/*
+job/log_fix/*
+result/output_bug/*
