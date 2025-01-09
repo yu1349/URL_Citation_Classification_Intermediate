@@ -1,22 +1,22 @@
 [
     {
         "k-shot": 1,
-        "elapsed_time": 1029.760643005371
+        "elapsed_time": 1209.708880186081
     },
     {
         "k-shot": 2,
-        "elapsed_time": 948.7625484466553
+        "elapsed_time": 1269.5711555480957
     },
     {
         "k-shot": 3,
-        "elapsed_time": 869.6390681266785
+        "elapsed_time": 1009.6726005077362
     },
     {
         "k-shot": 4,
-        "elapsed_time": 929.8416976928711
+        "elapsed_time": 1068.6135137081146
     },
     {
         "k-shot": 5,
-        "elapsed_time": 1017.6461155414581
+        "elapsed_time": 1168.8830261230469
     }
 ]
