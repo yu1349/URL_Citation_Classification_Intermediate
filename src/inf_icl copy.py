@@ -23,11 +23,8 @@ import json
 
 import nltk
 import re
-import fire
-import time
 
 CITE_TOKEN = "[URL_CITE]"
-RES_DIR = "/data/group1/z40436a/ME/URL_Citation_Classification_Intermediate/result/output"
 
 class URLCiteDataset(torch.utils.data.Dataset):
     '''
@@ -44,17 +41,6 @@ class URLCiteDataset(torch.utils.data.Dataset):
     
     def __getitem__(self, idx):
         return self.texts[idx]
-
-class Command:
-    def __init__(self, icl_method:str, seed:int, model_name:str):
-        '''
-        icl_method: random, bm25, encoder
-        seed: [111, 5374, 93279]
-        model_name: ["meta-llama/Llama-3.1-8B-Instruct", "google/gemma-2-9b-it", "mistralai/Mistral-Nemo-Instruct-2407"]
-        '''
-        self.icl_method = icl_method
-        self.seed = int(seed)
-        self.model_name = model_name
     
 def replace_tag(sentences: pd.Series) -> list[str]:
     # replace [Cite_****] to [Cite] token
@@ -102,8 +88,8 @@ def read_icl(file_path:str) -> list[list[int]]:
             icl_idxs.append(json.loads(line))
     return icl_idxs
 
-def create_inst(train_df:pd.DataFrame, test_df:pd.DataFrame, icl_ids:list[list[int]], k:int=5, model_name:str=None) -> list[list[dict[str, str]]]:
-    texts = []
+def create_inst(train_df:pd.DataFrame, test_df:pd.DataFrame, icl_ids:list[list[int]], icl_method:str, k:int=5) -> list[str]:
+    texts: list[str] = []
     
     train_replaced_sentences = replace_tag(train_df['citation-paragraph'])
     train_conts = get_3sent(train_replaced_sentences)
@@ -111,17 +97,10 @@ def create_inst(train_df:pd.DataFrame, test_df:pd.DataFrame, icl_ids:list[list[i
     test_replaced_sentences = replace_tag(test_df['citation-paragraph'])
     test_conts = get_3sent(test_replaced_sentences)
 
-    reset_idx = 0
     for test_cont, (i, row) in zip(test_conts, test_df.iterrows()):
-        instruction = []
-        instruct_text = f"""Your task is to classify the role that resources play in the research activities (ROLE), the type of artifact (TYPE) referred to the URL and the citation reason (FUNCTION). I will provide you with a URL, citation context and section titles.\n
-
-Here is the classification schema for the artifact role:
-1. Method: corresponding to the artifact type "Tool" and "Code"
-2. Material: corresponding to the artifact type "Dataset", "Knowledge" and "DataSource"
-3. Supplement: corresponding to the artifact type "Document", "Paper", "Media" and "Webcite"
-4. Mixed: corresponding to the artifact type "Mixed"
-
+        reset_idx = 0
+        instruction = [
+            {"role":"System", "content": f"""Your task is to classify the type of artifact (TYPE) reffered to the URL and the citation reason (FUNCTION). I will provide you with a URL and citation context, section titles.\n
 Here is the classification schema for the artifact type:
 1. Tool: toolkit, software, system
 2. Code: codebase, library, API
@@ -133,28 +112,16 @@ Here is the classification schema for the artifact type:
 8. Media: games, music, videos
 9. Website: services, homepages
 10. Mixed: citations referring to multiple resources
-
+    
 Here is the classification schema for the citation reason:
 1. Use: Used in the citing paper’s research
 2. Produce: First produced or released by the citing paper’s research
 3. Compare: Compared with other resources
 4. Extend: Used in the citing paper’s research but are improved, upgraded, or changed during the research
-5. Introduce: Introduced the resources or the related information
-6. Other: The URL citation does not belong to the above categories"""
-        
-        # Model selection
-        if "Llama-3.1" in model_name:
-            instruction.append({"role":"System", "content": instruct_text})
-        elif "gemma-2" in model_name or "Mistral" in model_name:
-            pass
-        else:
-            print("REWRITE ME!!!")
+5. Introduce: The resources or the related information
+6. Other: The URL citation does not belong to the above categories"""}
+        ]
 
-        # REWRITE ME!!!
-        # with open('/data/group1/z40436a/ME/URL_Citation_Classification_Intermediate/result/log.txt', 'a') as log_file:
-        #     log_file.write(str(icl_ids[reset_idx])+'\n')
-
-        # k-shot settings
         if k == 0:
             pass
         elif k > 0 and k <=5:
@@ -167,15 +134,11 @@ URL: {icl_df['url']}
 Citation Context: {train_conts[icl_idx]}
 Footnote or Reference text (if exists): {icl_df['citation-info']}
 Section Titles (if exists): {icl_df['passage-title']}"""
-                # gemma-2 does not support role of system
-                if top_k == 1 and ("gemma-2" in model_name or "Mistral" in model_name):
-                    icl_input = instruct_text + "\n" + icl_input
                 instruction.append({"role":"user", "content": icl_input})
-                instruction.append({"role":"assistant", "content": f"""ROLE: {icl_df['role'].replace("補足資料", "Supplement")}\nTYPE: {icl_df['type']}\nFUNCTION: {row['function'].split("（")[0]}"""})
+                instruction.append({"role":"assistant", "content": f"""TYPE: {icl_df['type']}\nFUNCTION: {row['function'].split("（")[0]}"""})
         else:
             print("error")
 
-        # create test input
         test_input = f"""Please classify the artifact type and the citation reason for the following URL and citation sentence.
 URL: {row['url']}
 Citation Context: {test_cont}
@@ -186,72 +149,68 @@ Section Titles (if exists): {row['passage-title']}"""
         reset_idx += 1
 
         texts.append(instruction)
-
-        #REWRITE ME!!!
-        # if reset_idx > 5:
-        #     break
     return texts
 
+def ensure_directory_exists(directory_path):
+    """
+    Checks if a directory exists at the given path.
+    If not, creates the directory.
 
-def main(c:Command) -> None:
+    Args:
+        directory_path (str): The path of the directory to check or create.
+    """
+    if not os.path.exists(directory_path):
+        os.makedirs(directory_path)
+        print(f"Directory created: {directory_path}")
+    else:
+        print(f"Directory already exists: {directory_path}")
+
+
+def main() -> None:
+    # seed of train & test split
+    seed = 111 # fixed
+    # icl method
+    icl_method = "random"
+    # num of in-context example
+    k = 1
+    # model name
+    model_name = "meta-llama/Llama-3.1-8B-Instruct"
+    # output dir
+    output_dir = "/data/group1/z40436a/ME/URL_Citation_Classification_Intermediate/result/output"
+
     csv_dataset = pd.read_csv("/data/group1/z40436a/ME/URL_Citation_Classification_Intermediate/data/all_data.csv", encoding="utf-8")
     
-    train_df, eval_df = train_test_split(csv_dataset, test_size = 0.1, random_state=int(c.seed))
+    train_df, eval_df = train_test_split(csv_dataset, test_size = 0.1, random_state=seed)
     print("train_data_size:::", len(train_df))
     print("test_data_size:::", len(eval_df))
 
-    icl_idxs = read_icl(f"/data/group1/z40436a/ME/URL_Citation_Classification_Intermediate/icl/{c.icl_method}/{str(c.seed)}.txt")
+    icl_idxs = read_icl(f"/data/group1/z40436a/ME/URL_Citation_Classification_Intermediate/icl/{icl_method}/{str(seed)}.txt")
 
+    eval_texts = create_inst(train_df, eval_df, icl_idxs, icl_method, k)
+    
     pipe = pipeline(
-            "text-generation",
-            model=c.model_name,
-            model_kwargs={"torch_dtype": torch.bfloat16},
-            device_map="auto",
-            max_new_tokens = 50
-        )
+        "text-generation",
+        model=model_name,
+        model_kwargs={"torch_dtype": torch.bfloat16},
+        device_map="auto",
+        max_new_tokens = 100
+    )
 
-    # measure time
-    time_logs = []
-
-    for k in range(1,5+1):
-        print(f"###{k}shot")
-        eval_texts = create_inst(train_df, eval_df, icl_idxs, k, c.model_name)
-
-        ### REWRITE ME!!!
-        prompts = eval_texts
-        # with open('./log.txt', 'a') as log_file:
-        #     log_file.write("===eval_text===")
-        #     log_file.write(str(prompts))
-
-        # start time
-        start_time = time.time()
-        
+    type_preds, func_preds = [], []
+    generated_texts = []
+    for i in range(len(eval_texts)):
+        print(f"{i}/{len(eval_texts)}", end="\r")
+        prompt = eval_texts[i]
         with torch.no_grad():
-            outputs = pipe(
-                prompts,
+            output = pipe(
+                prompt,
                 do_sample=False
-            )
+                )
+        generated_texts.append(output[0]['generated_text'])
 
-        # end time
-        end_time = time.time()
-        # elapse time
-        elapsed_time = end_time - start_time
-
-        # REWRITE ME!!!
-        # with open('./log.txt', 'a') as log_file:
-        #     log_file.write("===output===\n")
-        #     log_file.write(str(outputs)+"\n")
-
-        with open(f"{RES_DIR}/{c.model_name}/{c.icl_method}/{str(c.seed)}_{str(k)}shot.json", "w") as output_file:
-            # json.dump(generated_texts, output_file, indent=4)
-            json.dump(outputs, output_file, indent=4)
-
-        # append time log
-        time_logs.append({"k-shot": k, "elapsed_time": elapsed_time})
-
-    with open(f"{RES_DIR}/{c.model_name}/{c.icl_method}/{str(c.seed)}_time_log.json", "w") as time_log_file:
-        json.dump(time_logs, time_log_file, indent=4)
+        if i == 3:
+            with open(f"{output_dir}/{icl_method}/{str(seed)}.json", "w") as output_file:
+                json.dump(generated_texts, output_file, indent=4)
 
 if __name__ == "__main__":
-    c = fire.Fire(Command)
-    main(c)
+    main()

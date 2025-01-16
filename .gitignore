@@ -1,4 +1,6 @@
 job/log/*
 job/log_bug/*
 job/log_fix/*
+job/log_only_type_func/*
 result/output_bug/*
+result/output_only_type_func/*
