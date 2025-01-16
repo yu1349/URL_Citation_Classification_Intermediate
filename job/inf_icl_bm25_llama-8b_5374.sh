@@ -1,5 +1,5 @@
 #!/bin/bash -x
-#PJM -L rscgrp=cx-share
+#PJM -L rscgrp=cxgfs-share
 #PJM -L elapse=24:00:00
 #PJM -j
 #PJM -S
