@@ -1,0 +1,482 @@
+[
+  {
+    "id": 16,
+    "role": "Material",
+    "type": "Dataset",
+    "func": "Use"
+  },
+  {
+    "id": 147,
+    "role": "Method",
+    "type": "Tool",
+    "func": "Use"
+  },
+  {
+    "id": 313,
+    "role": "Material",
+    "type": "DataSource",
+    "func": "Use"
+  },
+  {
+    "id": 121,
+    "role": "Material",
+    "type": "Knowledge",
+    "func": "Use"
+  },
+  {
+    "id": 123,
+    "role": "Material",
+    "type": "Dataset",
+    "func": "Produce"
+  },
+  {
+    "id": 312,
+    "role": "Material",
+    "type": "DataSource",
+    "func": "Use"
+  },
+  {
+    "id": 7,
+    "role": "Material",
+    "type": "Knowledge",
+    "func": "Use"
+  },
+  {
+    "id": 13,
+    "role": "Method",
+    "type": "Tool",
+    "func": "Use"
+  },
+  {
+    "id": 142,
+    "role": "Method",
+    "type": "Tool",
+    "func": "Use"
+  },
+  {
+    "id": 375,
+    "role": "Material",
+    "type": "Dataset",
+    "func": "Use"
+  },
+  {
+    "id": 64,
+    "role": "Material",
+    "type": "Dataset",
+    "func": "Use"
+  },
+  {
+    "id": 141,
+    "role": "Material",
+    "type": "Knowledge",
+    "func": "Use"
+  },
+  {
+    "id": 409,
+    "role": "Material",
+    "type": "Tool",
+    "func": "Produce"
+  },
+  {
+    "id": 289,
+    "role": "Material",
+    "type": "Knowledge",
+    "func": "Use"
+  },
+  {
+    "id": 8,
+    "role": "Material",
+    "type": "Dataset",
+    "func": "Use"
+  },
+  {
+    "id": 18,
+    "role": "Material",
+    "type": "Knowledge",
+    "func": "Use"
+  },
+  {
+    "id": 89,
+    "role": "Material",
+    "type": "DataSource",
+    "func": "Use"
+  },
+  {
+    "id": 315,
+    "role": "Material",
+    "type": "DataSource",
+    "func": "Use"
+  },
+  {
+    "id": 428,
+    "role": "Material",
+    "type": "DataSource",
+    "func": "Use"
+  },
+  {
+    "id": 166,
+    "role": "Method",
+    "type": "Tool",
+    "func": "Introduce"
+  },
+  {
+    "id": 281,
+    "role": "Material",
+    "type": "Dataset",
+    "func": "Use"
+  },
+  {
+    "id": 308,
+    "role": "Material",
+    "type": "Dataset",
+    "func": "Compare"
+  },
+  {
+    "id": 288,
+    "role": "Material",
+    "type": "Knowledge",
+    "func": "Other"
+  },
+  {
+    "id": 322,
+    "role": "Method",
+    "type": "Tool",
+    "func": "Use"
+  },
+  {
+    "id": 352,
+    "role": "Method",
+    "type": "Tool",
+    "func": "Use"
+  },
+  {
+    "id": 345,
+    "role": "Material",
+    "type": "DataSource",
+    "func": "Use"
+  },
+  {
+    "id": 150,
+    "role": "Method",
+    "type": "Code",
+    "func": "Use"
+  },
+  {
+    "id": 351,
+    "role": "Material",
+    "type": "Dataset",
+    "func": "Use"
+  },
+  {
+    "id": 265,
+    "role": "Material",
+    "type": "Knowledge",
+    "func": "Use"
+  },
+  {
+    "id": 12,
+    "role": "Method",
+    "type": "Tool",
+    "func": "Use"
+  },
+  {
+    "id": 17,
+    "role": "Material",
+    "type": "Knowledge",
+    "func": "Introduce"
+  },
+  {
+    "id": 85,
+    "role": "Method",
+    "type": "Tool",
+    "func": "Use"
+  },
+  {
+    "id": 136,
+    "role": "Method",
+    "type": "Tool",
+    "func": "Use"
+  },
+  {
+    "id": 226,
+    "role": "Method",
+    "type": "Tool",
+    "func": "Use"
+  },
+  {
+    "id": 212,
+    "role": "Method",
+    "type": "Tool",
+    "func": "Use"
+  },
+  {
+    "id": 180,
+    "role": "Method",
+    "type": "Tool",
+    "func": "Use"
+  },
+  {
+    "id": 382,
+    "role": "Material",
+    "type": "DataSource",
+    "func": "Use"
+  },
+  {
+    "id": 419,
+    "role": "Material",
+    "type": "Tool",
+    "func": "Introduce"
+  },
+  {
+    "id": 317,
+    "role": "Method",
+    "type": "Code",
+    "func": "Use"
+  },
+  {
+    "id": 120,
+    "role": "Material",
+    "type": "Knowledge",
+    "func": "Introduce"
+  },
+  {
+    "id": 272,
+    "role": "Method",
+    "type": "Tool",
+    "func": "Use"
+  },
+  {
+    "id": 117,
+    "role": "Method",
+    "type": "Tool",
+    "func": "Use"
+  },
+  {
+    "id": 143,
+    "role": "Method",
+    "type": "Tool",
+    "func": "Introduce"
+  },
+  {
+    "id": 105,
+    "role": "Method",
+    "type": "Code",
+    "func": "Produce"
+  },
+  {
+    "id": 91,
+    "role": "Material",
+    "type": "Dataset",
+    "func": "Use"
+  },
+  {
+    "id": 43,
+    "role": "Material",
+    "type": "Dataset",
+    "func": "Use"
+  },
+  {
+    "id": 122,
+    "role": "Material",
+    "type": "Knowledge",
+    "func": "Use"
+  },
+  {
+    "id": 211,
+    "role": "Method",
+    "type": "Tool",
+    "func": "Use"
+  },
+  {
+    "id": 283,
+    "role": "Method",
+    "type": "Tool",
+    "func": "Introduce"
+  },
+  {
+    "id": 198,
+    "role": "Material",
+    "type": "Dataset",
+    "func": "Other"
+  },
+  {
+    "id": 176,
+    "role": "Method",
+    "type": "Tool",
+    "func": "Compare"
+  },
+  {
+    "id": 420,
+    "role": "Method",
+    "type": "Tool",
+    "func": "Use"
+  },
+  {
+    "id": 290,
+    "role": "Method",
+    "type": "Tool",
+    "func": "Use"
+  },
+  {
+    "id": 102,
+    "role": "Material",
+    "type": "Dataset",
+    "func": "Use"
+  },
+  {
+    "id": 11,
+    "role": "Material",
+    "type": "Dataset",
+    "func": "Use"
+  },
+  {
+    "id": 330,
+    "role": "Method",
+    "type": "Tool",
+    "func": "Produce"
+  },
+  {
+    "id": 84,
+    "role": "Method",
+    "type": "Tool",
+    "func": "Use"
+  },
+  {
+    "id": 310,
+    "role": "Method",
+    "type": "Tool",
+    "func": "Use"
+  },
+  {
+    "id": 229,
+    "role": "Method",
+    "type": "Tool",
+    "func": "Use"
+  },
+  {
+    "id": 340,
+    "role": "Method",
+    "type": "Tool",
+    "func": "Use"
+  },
+  {
+    "id": 15,
+    "role": "Method",
+    "type": "Tool",
+    "func": "Use"
+  },
+  {
+    "id": 220,
+    "role": "Material",
+    "type": "Dataset",
+    "func": "Use"
+  },
+  {
+    "id": 363,
+    "role": "Material",
+    "type": "Dataset",
+    "func": "Use"
+  },
+  {
+    "id": 309,
+    "role": "Method",
+    "type": "Tool",
+    "func": "Use"
+  },
+  {
+    "id": 231,
+    "role": "Method",
+    "type": "Tool",
+    "func": "Introduce"
+  },
+  {
+    "id": 398,
+    "role": "Method",
+    "type": "Tool",
+    "func": "Use"
+  },
+  {
+    "id": 222,
+    "role": "Method",
+    "type": "Tool",
+    "func": "Introduce"
+  },
+  {
+    "id": 26,
+    "role": "Material",
+    "type": "DataSource",
+    "func": "Use"
+  },
+  {
+    "id": 384,
+    "role": "Method",
+    "type": "Code",
+    "func": "Use"
+  },
+  {
+    "id": 282,
+    "role": "Material",
+    "type": "Dataset",
+    "func": "Use"
+  },
+  {
+    "id": 392,
+    "role": "Method",
+    "type": "Tool",
+    "func": "Use"
+  },
+  {
+    "id": 14,
+    "role": "Method",
+    "type": "Code",
+    "func": "Use"
+  },
+  {
+    "id": 279,
+    "role": "Method",
+    "type": "Tool",
+    "func": "Use"
+  },
+  {
+    "id": 371,
+    "role": "Method",
+    "type": "Tool",
+    "func": "Use"
+  },
+  {
+    "id": 395,
+    "role": "Material",
+    "type": "Knowledge",
+    "func": "Use"
+  },
+  {
+    "id": 421,
+    "role": "Material",
+    "type": "Dataset",
+    "func": "Use"
+  },
+  {
+    "id": 335,
+    "role": "Method",
+    "type": "Tool",
+    "func": "Use"
+  },
+  {
+    "id": 393,
+    "role": "Material",
+    "type": "DataSource",
+    "func": "Use"
+  },
+  {
+    "id": 208,
+    "role": "Method",
+    "type": "Tool",
+    "func": "Use"
+  },
+  {
+    "id": 201,
+    "role": "Material",
+    "type": "Dataset",
+    "func": "Other"
+  }
+]
