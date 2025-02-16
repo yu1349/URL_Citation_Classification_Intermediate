@@ -1,0 +1,4152 @@
+[
+  {
+    "text": "4 Dataset [SEP] In addition to the reports, we used the Center for Research in Security Prices (CRSP) US Stocks Database to obtain the price return series along with other firm characteristics. [Cite_Footnote_4] We proceeded to calcu-late two volatilities for each firm/report observation: the twelve months prior to the report (v (−12) ) and the twelve months after the report (v (+12) ). [SEP] 4 The text and volatility data are publicly available at http://www.ark.cs.cmu.edu/10K.",
+    "entities": [
+      {
+        "start": 2,
+        "end": 9,
+        "label": "NAME"
+      },
+      {
+        "start": 56,
+        "end": 120,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 135,
+        "end": 154,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 172,
+        "end": 192,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 194,
+        "end": 211,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 243,
+        "end": 255,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 270,
+        "end": 276,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 402,
+        "end": 449,
+        "label": "DESCRIPTION"
+      }
+    ]
+  },
+  {
+    "text": "4 Balanced dataset for evaluation of Japanese lexical simplification [SEP] We use a crowdsourcing application, Lancers, [Cite_Footnote_3] to perform substitute extraction, substitute evalua-tion, and substitute ranking. In each task, we re-quested the annotators to complete at least 95% of their previous assignments correctly. They were native Japanese speakers. [SEP] 3 http://www.lancers.jp/",
+    "entities": [
+      {
+        "start": 2,
+        "end": 18,
+        "label": "NAME"
+      },
+      {
+        "start": 23,
+        "end": 68,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 84,
+        "end": 109,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 111,
+        "end": 118,
+        "label": "NAME"
+      },
+      {
+        "start": 120,
+        "end": 137,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 373,
+        "end": 395,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "3 Method 3.1 Semantic space 3.1.1 Source corpus [SEP] Our source corpus is the concatenation of the ukWaC corpus [Cite_Footnote_2] , a mid-2009 dump of the English Wikipedia and the British National Corpus . The corpus is tokenized, POS-tagged and lemmatized with TreeTagger (Schmid, 1995) and contains about 2.8 billion tokens. We extracted all statistics at the lemma level, ignoring inflectional information. [SEP] 2 http://wacky.sslmit.unibo.it/",
+    "entities": [
+      {
+        "start": 100,
+        "end": 112,
+        "label": "NAME"
+      },
+      {
+        "start": 113,
+        "end": 130,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 135,
+        "end": 173,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 182,
+        "end": 205,
+        "label": "NAME"
+      },
+      {
+        "start": 420,
+        "end": 449,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "3 Building the CatVar [SEP] The CatVar database was developed using a combina-tion of resources and algorithms including the Lexi-cal Conceptual Structure (LCS) Verb and Preposition Databases (Dorr, 2001)  , the Brown Corpus section of the Penn Treebank (Marcus et al., 1993), an English mor-phological analysis lexicon developed for PC-Kimmo (Englex) (Antworth, 1990), NOMLEX (Macleod et al., 1998), Longman Dictionary of Contemporary English (LDOCE) 3 (Procter, 1983), WordNet 1.6 (Fellbaum, 1998), and the Porter stemmer. The contribution of each of these sources is clearly labeled in the CatVar database, thus enabling the use of different cross-sections of the re-source for different applications. 4 [SEP] Bonnie J. Dorr. 2001. LCS Verb Database. Technical Report Online Software Database, University of Mary-land, College Park, MD. http://www.umiacs.umd.edu/˜bonnie/LCS Database Docmentation.html.",
+    "entities": [
+      {
+        "start": 15,
+        "end": 21,
+        "label": "NAME"
+      },
+      {
+        "start": 32,
+        "end": 47,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 212,
+        "end": 253,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 334,
+        "end": 351,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 370,
+        "end": 376,
+        "label": "NAME"
+      },
+      {
+        "start": 401,
+        "end": 451,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 471,
+        "end": 482,
+        "label": "NAME"
+      },
+      {
+        "start": 509,
+        "end": 523,
+        "label": "NAME"
+      },
+      {
+        "start": 593,
+        "end": 608,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 713,
+        "end": 727,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 735,
+        "end": 752,
+        "label": "NAME"
+      },
+      {
+        "start": 754,
+        "end": 795,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 840,
+        "end": 904,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "5 Conclusion [SEP] We conclude that text features from pre-release re-views can substitute for and improve over a strong metadata-based first-weekend movie revenue pre-diction. The dataset used in this paper has been made available for research at  http://www.ark.cs.cmu.edu/movie$-data.",
+    "entities": [
+      {
+        "start": 177,
+        "end": 207,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 249,
+        "end": 286,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "8 Recent Research Projects [SEP] Two other related FP5 IST projects are: C ORE - TEX : Improving Core Speech Recognition Tech-nology and E CHO : European CHronicles On-line. C ORETEX (http://coretex.itc.it/), aims at improving core speech recognition technologies, which are central to most applications involv-ing voice technology. In particular the project addresses the development of generic speech recognition technology and methods to rapidly port technology to new domains and languages with limited supervision, and to produce en-riched symbolic speech transcriptions. The E CHO project (  http://pc-erato2.iei.pi.cnr.it/echo) aims to develop an infrastructure for access to histori-cal films belonging to large national audiovisual archives. The project will integrate state-of-the-art language technologies for indexing, searching and retrieval, cross-language retrieval capabilities and automatic film summary creation.",
+    "entities": [
+      {
+        "start": 2,
+        "end": 26,
+        "label": "NAME"
+      },
+      {
+        "start": 73,
+        "end": 84,
+        "label": "NAME"
+      },
+      {
+        "start": 87,
+        "end": 132,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 137,
+        "end": 142,
+        "label": "NAME"
+      },
+      {
+        "start": 174,
+        "end": 182,
+        "label": "NAME"
+      },
+      {
+        "start": 184,
+        "end": 206,
+        "label": "URL"
+      },
+      {
+        "start": 217,
+        "end": 331,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 388,
+        "end": 575,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 581,
+        "end": 594,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 598,
+        "end": 633,
+        "label": "URL"
+      },
+      {
+        "start": 643,
+        "end": 749,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 768,
+        "end": 929,
+        "label": "DESCRIPTION"
+      }
+    ]
+  },
+  {
+    "text": "3 The Proposed Method 3.2 Capturing Lexical Semantic Clue in a Semantic Similarity Graph 3.2.1 Learning Word Embedding for [SEP] To alleviate the data sparsity problem, EB is first trained on a very large corpus [Cite_Footnote_3] (denoted by C), and then fine-tuned on the target review cor-pus R. Particularly, for phrasal product features, a statistic-based method in (Zhu et al., 2009) is used to detect noun phrases in R. Then, an Unfold-ing Recursive Autoencoder (Socher et al., 2011) is trained on C to obtain embedding vectors for noun phrases. In this way, semantics of infrequent terms in R can be well captured. Finally, the phrase-based Skip-gram model in (Mikolov et al., 2013) is applied on R. [SEP] 3 Wikipedia(http://www.wikipedia.org) is used in practice.",
+    "entities": [
+      {
+        "start": 169,
+        "end": 171,
+        "label": "NAME"
+      },
+      {
+        "start": 212,
+        "end": 229,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 370,
+        "end": 388,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 435,
+        "end": 467,
+        "label": "NAME"
+      },
+      {
+        "start": 468,
+        "end": 489,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 516,
+        "end": 550,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 565,
+        "end": 599,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 635,
+        "end": 663,
+        "label": "NAME"
+      },
+      {
+        "start": 667,
+        "end": 689,
+        "label": "CITATIONTAG"
+      }
+    ]
+  },
+  {
+    "text": "4 Experiments and Results 4.4 An Example: Word “use” [SEP] For investigating the reason for LP to outperform SVM and monolingual bootstrapping, we used the data of word “use” in English lexical sample task of SENSEVAL-3 as an example (totally 26 examples in training set and 14 examples in test set). For data visualization, we conducted unsupervised nonlinear dimensionality reduction [Cite_Footnote_5] on these 40 feature vec-tors with 210 dimensions. Figure 3 (a) shows the dimensionality reduced vectors in two-dimensional space. We randomly sampled only one labeled ex-ample for each sense of word “use” as labeled data. The remaining data in training set and test set served as unlabeled data for bootstrapping and LP. All of these three algorithms are evaluated using accuracy on test set. [SEP] 5 We used Isomap to perform dimensionality reduction by computing two-dimensional, 39-nearest-neighbor-preserving embedding of 210-dimensional input. Isomap is available at http://isomap.stanford.edu/.",
+    "entities": [
+      {
+        "start": 42,
+        "end": 52,
+        "label": "NAME"
+      },
+      {
+        "start": 178,
+        "end": 219,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 386,
+        "end": 403,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 454,
+        "end": 466,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 813,
+        "end": 819,
+        "label": "NAME"
+      }
+    ]
+  },
+  {
+    "text": "4 Experiments on DUC 2004 data 4.1 DUC 2004 data and ROUGE [SEP] For evaluation, we used the new automatic sum-mary evaluation metric, ROUGE [Cite_Footnote_1] , which was used for the first time in DUC 2004. ROUGE is a recall-based metric for fixed-length summaries which is based on n-gram co-occurence. It reports separate scores for 1, 2, 3, and 4-gram, and also for longest common subsequence co-occurences. Among these different scores, unigram-based ROUGE score (ROUGE-1) has been shown to agree with human judgements most (Lin and Hovy, 2003). We show three of the ROUGE metrics in our experiment results: ROUGE-1 (unigram-based), ROUGE-2 (bigram-based), and ROUGE-W (based on longest common subsequence weighted by the length). [SEP] 1 http://www.isi.edu/˜cyl/ROUGE",
+    "entities": [
+      {
+        "start": 17,
+        "end": 30,
+        "label": "NAME"
+      },
+      {
+        "start": 53,
+        "end": 58,
+        "label": "NAME"
+      },
+      {
+        "start": 141,
+        "end": 158,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 198,
+        "end": 206,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 208,
+        "end": 213,
+        "label": "NAME"
+      },
+      {
+        "start": 219,
+        "end": 303,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 316,
+        "end": 410,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 442,
+        "end": 549,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 613,
+        "end": 734,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 744,
+        "end": 773,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "5 Experimental Settings 5.2 Datasets [SEP] We use the IMDB Movie Review Corpus (IMDB) prepared by Maas et al. (2011). [Cite_Footnote_1] This cor-pus has 75k training reviews and 25k test reviews. [SEP] 1 http://ai.stanford.edu/˜amaas/data/sentiment/",
+    "entities": [
+      {
+        "start": 54,
+        "end": 78,
+        "label": "NAME"
+      },
+      {
+        "start": 80,
+        "end": 84,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 98,
+        "end": 116,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 119,
+        "end": 134,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 204,
+        "end": 249,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "5 Evaluation 5.1 Methodology [SEP] In order to evaluate the performance of our tensor-based factorization model of compositionality, we make use of the sentence similarity task for transi-tive sentences, defined in Grefenstette and Sadrzadeh (2011a). This is an extension of the similarity task for compositional models developed by Mitchell and Lapata (2008), and constructed according to the same guidelines. The dataset contains 2500 similarity judgements, provided by 25 participants, and is pub-licly available. [Cite_Footnote_6] [SEP] 6 http://www.cs.ox.ac.uk/activities/CompDistMeaning/GS2011data.txt",
+    "entities": [
+      {
+        "start": 79,
+        "end": 131,
+        "label": "NAME"
+      },
+      {
+        "start": 215,
+        "end": 249,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 279,
+        "end": 319,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 333,
+        "end": 359,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 517,
+        "end": 534,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 543,
+        "end": 607,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "2 Preliminaries 2.2 Gold standard data [SEP] Information about noun countability was obtained from two sources: COMLEX 3.0 (Grishman et al., 1998)  and the common noun part of ALT-J/E ’s Japanese-to-English semantic transfer dictio-nary (Ikehara et al., 1991). Of the approximately 22,000 noun entries in COMLEX , 13,622 are marked as countable , 710 as uncountable and the remainder are unmarked for countability. ALT-J/E has 56,245 English noun types with distinct countability. [SEP] Ralph Grishman, Catherine Macleod, and Adam Myers, 1998. COMLEX Syntax Reference Manual. Proteus Project, NYU. (http://nlp.cs.nyu.edu/comlex/refman.ps).",
+    "entities": [
+      {
+        "start": 20,
+        "end": 38,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 112,
+        "end": 122,
+        "label": "NAME"
+      },
+      {
+        "start": 123,
+        "end": 146,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 237,
+        "end": 259,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 305,
+        "end": 311,
+        "label": "NAME"
+      },
+      {
+        "start": 415,
+        "end": 422,
+        "label": "NAME"
+      },
+      {
+        "start": 487,
+        "end": 597,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 598,
+        "end": 638,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "3. A free distribution of our implementation. 2 [SEP] 3. A free distribution of our implementation. [Cite_Footnote_2] [SEP] 2 http://groups.csail.mit.edu/nlp/dpo3/",
+    "entities": [
+      {
+        "start": 3,
+        "end": 44,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 100,
+        "end": 117,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 126,
+        "end": 163,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "4 Topic Selection [SEP] After a topic was input to the system, the Retriever system assigned it a category using a naïve Bayes classifier built on a spidered DMOZ [Cite_Footnote_5] hierarchy. Various heuristics were implemented to make the returned set of categories uniform in length and depth, up-to-date, and readable. [SEP] 5 http://www.dmoz.com",
+    "entities": [
+      {
+        "start": 2,
+        "end": 17,
+        "label": "NAME"
+      },
+      {
+        "start": 67,
+        "end": 83,
+        "label": "NAME"
+      },
+      {
+        "start": 115,
+        "end": 137,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 149,
+        "end": 162,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 163,
+        "end": 180,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 330,
+        "end": 349,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "4 Experiments 4.1 Datasets and Evaluation Metrics [SEP] Datasets: We select two real world datasets to evaluate the proposed method. The first one is a benchmark dataset in Wang et al. (2011), which contains English review sets on two do-mains (MP3 and Hotel) [Cite_Footnote_5] . The second dataset is proposed by Chinese Opinion Analysis Evalua-tion 2008 (COAE 2008) , where two review sets (Camera and Car) are selected. Xu et al. (2013) had manually annotated product features on these four domains, so we directly employ their annota-tion as the gold standard. The detailed information can be found in their original paper. [SEP] 5 http://timan.cs.uiuc.edu/downloads.html",
+    "entities": [
+      {
+        "start": 18,
+        "end": 26,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 76,
+        "end": 99,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 152,
+        "end": 169,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 173,
+        "end": 191,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 208,
+        "end": 227,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 231,
+        "end": 259,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 260,
+        "end": 277,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 314,
+        "end": 367,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 376,
+        "end": 408,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 423,
+        "end": 439,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 463,
+        "end": 479,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 489,
+        "end": 501,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 550,
+        "end": 563,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 612,
+        "end": 626,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 634,
+        "end": 675,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "6 Generalized Chomsky Normal Form 6.2 Step 4: Eliminate ’s [SEP] Grammars in GCNF cannot have ’s in their productions. Thus, GCNF is a more restrictive normal form than those used by Wu (1997) and Melamed (2003). The absence of ’s simplifies parsers for GMTG (Melamed, 2004)  . Given a GMTG u with in some productions, we give the construction of a weakly equivalent gram-mar u9O without any ’s. First, determine all nullable links and associated - strings in u . - A link * Z Z is nullable if < y is an ITV where at least one y•bhg is . We say the link is nullable and the string at address in is nullable. For each nullable link, we create versions of the link, where is the number of nullable strings of that link. There is one version for each of the possible combinations of the nullable strings being present or absent. The version of the link with all strings present is its original version. Each non-original version of the link (except in the case of start links) gets a unique subscript, which is applied to all the nonterminals in the link, so that each link is unique in the grammar. We construct a new grammar u O whose set of productions w O is determined as follows: for each production, we identify the nullable links on the RHS and replace them with each combination of the non-original versions found earlier. If a string is left empty during this process, that string is removed from the RHS and the fan-out of the production component is reduced by one. The link on the LHS is replaced with its appropriate matching non-original link. There is one exception to the replacements. If a production consists of all nullable strings, do not include this case. Lastly, we remove all strings on the RHS of productions that have ’s, and reduce the fan-out of the productions accordingly. Once again, we replace the LHS link with the appropriate version. case and are nullable - so we create 54 a new version of both links: and . We then alter the productions. Pro-duction (31) gets replaced by (40). A new produc-tion based on (30) is Production (38). Lastly, Pro-duction (29) has two nullable strings on the RHS, so it gets altered to add three new productions, (34), (35) and (36). The altered set of productions are the following: [SEP] I. Dan Melamed, G. Satta, and B. Wellington. 2004. Gener-alized multitext grammars. Technical Report 04-003, NYU Proteus Project. http://nlp.cs.nyu.edu/pubs/.",
+    "entities": [
+      {
+        "start": 2,
+        "end": 33,
+        "label": "NAME"
+      },
+      {
+        "start": 77,
+        "end": 81,
+        "label": "NAME"
+      },
+      {
+        "start": 183,
+        "end": 192,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 197,
+        "end": 211,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 254,
+        "end": 258,
+        "label": "NAME"
+      },
+      {
+        "start": 260,
+        "end": 273,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 1116,
+        "end": 1127,
+        "label": "NAME"
+      },
+      {
+        "start": 1141,
+        "end": 1156,
+        "label": "NAME"
+      },
+      {
+        "start": 2256,
+        "end": 2296,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 2304,
+        "end": 2335,
+        "label": "NAME"
+      },
+      {
+        "start": 2337,
+        "end": 2360,
+        "label": "NAME"
+      },
+      {
+        "start": 2362,
+        "end": 2381,
+        "label": "NAME"
+      }
+    ]
+  },
+  {
+    "text": "2 A Parallel Corpus of Literary Texts 2.1 Data Selection [SEP] We identified 115 novels among the texts pro-vided by Project Gutenberg (English) and Project Gutenberg-DE (German) that were available in both languages, with a total of 0.5M sentences per lan-guage. [Cite_Footnote_1] Examples include Dickens’ David Copper-field or Tolstoy’s Anna Karenina. We decided to exclude plays and poems as they often include partial sentences and structures that are difficult to align. [SEP] 1 http://www.gutenberg.org and http://gutenberg.spiegel.de/",
+    "entities": [
+      {
+        "start": 2,
+        "end": 37,
+        "label": "NAME"
+      },
+      {
+        "start": 117,
+        "end": 134,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 149,
+        "end": 169,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 264,
+        "end": 281,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 330,
+        "end": 353,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 377,
+        "end": 392,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 485,
+        "end": 509,
+        "label": "URL"
+      },
+      {
+        "start": 514,
+        "end": 542,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "3 Method 3.1 Semantic space 3.1.1 Source corpus [SEP] Our source corpus is the concatenation of the ukWaC corpus , a mid-2009 dump of the English Wikipedia and the British National Corpus [Cite_Footnote_4] . The corpus is tokenized, POS-tagged and lemmatized with TreeTagger (Schmid, 1995) and contains about 2.8 billion tokens. We extracted all statistics at the lemma level, ignoring inflectional information. [SEP] 4 http://www.natcorp.ox.ac.uk/",
+    "entities": [
+      {
+        "start": 34,
+        "end": 47,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 100,
+        "end": 112,
+        "label": "NAME"
+      },
+      {
+        "start": 117,
+        "end": 155,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 164,
+        "end": 187,
+        "label": "NAME"
+      },
+      {
+        "start": 188,
+        "end": 205,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 420,
+        "end": 448,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "4 Experiments 4.1 Data [SEP] We take a subset of the TIPSTER [Cite_Footnote_3] corpus – all Wall Street Journal articles from the period of 1987-92 (approx. 72 mill. words) – and automatically anno-tate them with sentence boundaries, part of speech tags and dependency relations using the Stanford parser (Klein & Manning, 2003). We reserve a small subset of about 600 articles (340,000 words) for testing and use the rest to build a trigram LM with the CMU toolkit (Clarkson & Rosenfeld, 1997, with Good-Turing smoothing and vocabulary size of 30,000). To train the maximum entropy classifiers we use about 41,000 sentences. [SEP] 3 Description at http://www.ldc.upenn.edu/Catalog/CatalogEntry.jsp?catalogId=LDC93T3A.",
+    "entities": [
+      {
+        "start": 53,
+        "end": 60,
+        "label": "NAME"
+      },
+      {
+        "start": 61,
+        "end": 78,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 92,
+        "end": 111,
+        "label": "NAME"
+      },
+      {
+        "start": 289,
+        "end": 304,
+        "label": "NAME"
+      },
+      {
+        "start": 306,
+        "end": 327,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 434,
+        "end": 444,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 454,
+        "end": 465,
+        "label": "NAME"
+      },
+      {
+        "start": 467,
+        "end": 493,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 500,
+        "end": 521,
+        "label": "NAME"
+      },
+      {
+        "start": 567,
+        "end": 594,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 634,
+        "end": 648,
+        "label": "DESCRIPTION"
+      }
+    ]
+  },
+  {
+    "text": "References [SEP] Finally, evaluation of induced sense taxonomies is always problematic. First of all, there is no agreed “correct” way to G. Karypis. 2002. CLUTO: A Clustering Toolkit. Tech Report 02-017, Dept. of Computer Science, University of Minnesota. Available at  http://www.cs.umn.edu˜clutoS. Ploux and H. Ji. 2003. A Model for Matching Semantic Maps Between Languages (French/English, English/French). Computational Linguistics, 29(2):155- 178.",
+    "entities": [
+      {
+        "start": 138,
+        "end": 148,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 156,
+        "end": 161,
+        "label": "NAME"
+      },
+      {
+        "start": 163,
+        "end": 183,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 185,
+        "end": 255,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 301,
+        "end": 306,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 311,
+        "end": 316,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 324,
+        "end": 409,
+        "label": "DESCRIPTION"
+      }
+    ]
+  },
+  {
+    "text": "4 Evaluation 4.2 Setup [SEP] To estimate the timeliness and semantic cred-ibility indicators, we use AQUAINT-2, a set of newswire articles (2.5 GB, about 907K documents) that are roughly contemporaneous with the TREC Blog06 collection (AQUAINT-2, 2007)  . Articles are in English and come from a variety of sources. [SEP] AQUAINT-2 (2007). URL: http://trec.nist.gov/data/qa/2007_qadata/qa.07.guidelines.html#documents.",
+    "entities": [
+      {
+        "start": 101,
+        "end": 110,
+        "label": "NAME"
+      },
+      {
+        "start": 112,
+        "end": 234,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 236,
+        "end": 251,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 322,
+        "end": 338,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 345,
+        "end": 417,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "1 Introduction [SEP] It takes a long time to construct high-quality an-notated data, and we want to compare our results with conventional methods. Therefore, we obtained Seki’s data (Seki et al., 2002a; Seki et al., 2002b), which are based on the Kyoto University Corpus [Cite_Footnote_2] 2.0. These data are divided into two groups: gen-eral and editorial. General contains 30 general news articles, and editorial contains 30 editorial articles. According to his experiments, editorial is harder than general. Perhaps this is caused by the differ-ence in rhetorical styles and the lengths of articles. The average number of sentences in an editorial ar-ticle is 28.7, while that in a general article is 13.9. [SEP] 2 http://pine.kuee.kyoto-u.ac.jp/nl-resource/courpus-e.html",
+    "entities": [
+      {
+        "start": 170,
+        "end": 181,
+        "label": "NAME"
+      },
+      {
+        "start": 183,
+        "end": 201,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 203,
+        "end": 221,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 247,
+        "end": 270,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 271,
+        "end": 288,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 358,
+        "end": 365,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 405,
+        "end": 414,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 427,
+        "end": 445,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 477,
+        "end": 486,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 502,
+        "end": 509,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 685,
+        "end": 700,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 718,
+        "end": 775,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "3 Lycos Retriever pages [SEP] Figure 1 shows a sample Retriever page for the topic “Mario Lemieux”. [Cite_Footnote_4] The topic is indicated at the upper left. Below it is a category assigned to the topic, in this case Sports > Hockey > Ice Hockey > National Hockey League > Lemieux, Mario. The main body of the page is a set of para-graphs beginning with a biographical paragraph complete with Lemieux’s birth date, height, weight and position extracted from Nationmaster.com, followed by paragraphs outlining his career from other sources. The source for each extract is indi-cated in shortened form in the left margin of the page; mousing over the shortened URL reveals the full title and URL. Associated images are thumb-nailed alongside the extracted paragraphs. [SEP] 4 For other categories, see e.g. King Kong (1933): http://www.lycos.com/info/king-kong-1933.html, Zoloft: http://www.lycos.com/info/zoloft.html, Public-Key Cryptography: http://www.lycos.com/info/public-key-cryptography.html , Lyme Disease: http://www.lycos.com/info/lyme-disease.html, Reggaeton: http://www.lycos.com/info/reggaeton.html",
+    "entities": [
+      {
+        "start": 2,
+        "end": 17,
+        "label": "NAME"
+      },
+      {
+        "start": 100,
+        "end": 117,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 825,
+        "end": 870,
+        "label": "URL"
+      },
+      {
+        "start": 880,
+        "end": 917,
+        "label": "URL"
+      },
+      {
+        "start": 944,
+        "end": 998,
+        "label": "URL"
+      },
+      {
+        "start": 1015,
+        "end": 1058,
+        "label": "URL"
+      },
+      {
+        "start": 1071,
+        "end": 1111,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "5 Cross-lingual Classification [SEP] monolingual word embedding. We adopt a similar model as in cross-domain classi-fication where we use machine translation (Google Translate [Cite_Footnote_5] ) to translate training data from source to target language. In this model, we use pre-trained word embedding from FastText . [SEP] 5 http://translate.google.com/",
+    "entities": [
+      {
+        "start": 0,
+        "end": 30,
+        "label": "NAME"
+      },
+      {
+        "start": 37,
+        "end": 63,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 138,
+        "end": 157,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 159,
+        "end": 175,
+        "label": "NAME"
+      },
+      {
+        "start": 176,
+        "end": 193,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 277,
+        "end": 303,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 309,
+        "end": 317,
+        "label": "NAME"
+      },
+      {
+        "start": 328,
+        "end": 356,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "4 Experimentation 4.1 Experimental Settings [SEP] Our training data for the translation task consists of 1.25M sentence pairs extracted from LDC cor-pora, with 27.9M Chinese words and 34.5M En-glish words respectively. We choose NIST MT 06 dataset (1664 sentence pairs) as our develop-ment set, and NIST MT 02, 03, 04, and 05 datasets (878, 919, 1788 and 1082 sentence pairs, respec-tively) as our test sets. To get the source syn-tax for sentences on the source-side, we parse the Chinese sentences with Berkeley Parser [Cite_Footnote_6] (Petrov and Klein, 2007) trained on Chinese TreeBank 7.0 (Xue et al., 2005). We use the case insensitive 4-gram NIST BLEU score (Papineni et al., 2002) for the translation task. [SEP] 6 https://github.com/slavpetrov/berkeleyparser",
+    "entities": [
+      {
+        "start": 141,
+        "end": 153,
+        "label": "NAME"
+      },
+      {
+        "start": 229,
+        "end": 247,
+        "label": "NAME"
+      },
+      {
+        "start": 299,
+        "end": 334,
+        "label": "NAME"
+      },
+      {
+        "start": 505,
+        "end": 520,
+        "label": "NAME"
+      },
+      {
+        "start": 521,
+        "end": 538,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 540,
+        "end": 562,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 575,
+        "end": 595,
+        "label": "NAME"
+      },
+      {
+        "start": 597,
+        "end": 613,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 644,
+        "end": 666,
+        "label": "NAME"
+      },
+      {
+        "start": 668,
+        "end": 689,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 725,
+        "end": 769,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "5 Experiments 5.1 Setup 5.1.1 Alignment Task [SEP] The purpose of the this task is to fairly com-pare with state-of-the-art results in terms of alignment quality and perform a hyperparame-ter search. We use the same experimental setup as described in (Zenkel et al., 2019). The au-thors provide pre-processing and scoring scripts 2 for three different datasets: Romanian→English, English→French and German→English. Train-ing data and test data for Romanian→English and English→French are provided by the NAACL’03 Building and Using Parallel Texts word align-ment shared task [Cite_Footnote_3] (Mihalcea and Pedersen, 2003). The Romanian→English training data are aug-mented by the Europarl v8 corpus increasing the amount of parallel sentences from 49k to 0.4M. For German→English we use the Europarl v7 cor-pus as training data and the gold alignments pro-vided by Vilar et al. (2006). The reference align-ments were created by randomly selecting a subset of the Europarl v7 corpus and manually annotating them following the guidelines suggested in (Och and Ney, 2003). Data statistics are shown in Ta-ble 1. [SEP] 3 http://web.eecs.umich.edu/˜mihalcea/wpt/index.html#resources",
+    "entities": [
+      {
+        "start": 30,
+        "end": 44,
+        "label": "NAME"
+      },
+      {
+        "start": 251,
+        "end": 272,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 362,
+        "end": 378,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 380,
+        "end": 394,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 399,
+        "end": 413,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 575,
+        "end": 592,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 593,
+        "end": 622,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 681,
+        "end": 699,
+        "label": "NAME"
+      },
+      {
+        "start": 964,
+        "end": 982,
+        "label": "NAME"
+      },
+      {
+        "start": 1050,
+        "end": 1069,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 1118,
+        "end": 1178,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "5 Experiments 5.1 Methods [SEP] • ROBERTa, a robust BERT (Liu et al., 2019). We used ROBERTa-wwm-est-large. [Cite_Footnote_4] [SEP] 4 https://github.com/ymcui/Chinese-BERT-wwm",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "label": "NAME"
+      },
+      {
+        "start": 14,
+        "end": 25,
+        "label": "NAME"
+      },
+      {
+        "start": 34,
+        "end": 41,
+        "label": "NAME"
+      },
+      {
+        "start": 43,
+        "end": 56,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 58,
+        "end": 74,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 85,
+        "end": 106,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 108,
+        "end": 125,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 134,
+        "end": 175,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "4 Experimentation 4.1 Experimental Settings [SEP] Our training data for the translation task consists of 1.25M sentence pairs extracted from LDC cor-pora, with 27.9M Chinese words and 34.5M En-glish words respectively. We choose NIST MT 06 dataset (1664 sentence pairs) as our develop-ment set, and NIST MT 02, 03, 04, and 05 datasets (878, 919, 1788 and 1082 sentence pairs, respec-tively) as our test sets. [Cite_Footnote_5] To get the source syn-tax for sentences on the source-side, we parse the Chinese sentences with Berkeley Parser (Petrov and Klein, 2007) trained on Chinese TreeBank 7.0 (Xue et al., 2005). We use the case insensitive 4-gram NIST BLEU score (Papineni et al., 2002) for the translation task. [SEP] 5 http://www.itl.nist.gov/iad/mig/tests/mt/",
+    "entities": [
+      {
+        "start": 76,
+        "end": 92,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 229,
+        "end": 247,
+        "label": "NAME"
+      },
+      {
+        "start": 299,
+        "end": 334,
+        "label": "NAME"
+      },
+      {
+        "start": 409,
+        "end": 426,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 523,
+        "end": 538,
+        "label": "NAME"
+      },
+      {
+        "start": 575,
+        "end": 595,
+        "label": "NAME"
+      },
+      {
+        "start": 627,
+        "end": 666,
+        "label": "NAME"
+      },
+      {
+        "start": 717,
+        "end": 766,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "2 MeSH and Medline [SEP] In this paper we use the MeSH (Medical Subject Head-ings) lexical hierarchy [Cite_Footnote_1] , but the approach should be equally applicable to other domains using other thesauri and ontologies. In MeSH, each concept is assigned one or more alphanumeric descriptor codes corresponding to particular positions in the hierarchy. For example, A (Anatomy), A01 (Body Regions), A01.456 (Head), A01.456.505 (Face), A01.456.505.420 (Eye). Eye is ambiguous according to MeSH and has a second code: A09.371 (A09 represents Sense Organs). [SEP] 1 http://www.nlm.nih.gov/mesh",
+    "entities": [
+      {
+        "start": 2,
+        "end": 6,
+        "label": "NAME"
+      },
+      {
+        "start": 11,
+        "end": 18,
+        "label": "NAME"
+      },
+      {
+        "start": 56,
+        "end": 81,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 101,
+        "end": 118,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 224,
+        "end": 228,
+        "label": "NAME"
+      },
+      {
+        "start": 488,
+        "end": 492,
+        "label": "NAME"
+      },
+      {
+        "start": 540,
+        "end": 552,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 563,
+        "end": 590,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "4 Experiments and Results 4.2 Experiment 1: LP vs. SVM [SEP] Table 1 reports the average accuracies and paired t-test results of SVM and LP with different sizes of labled data. It also lists the official results of baseline method and top [Cite_Footnote_3] systems in ELS task of SENSEVAL-3. [SEP] 3 we SV M light ,used linear available at http://svmlight.joachims.org/.",
+    "entities": [
+      {
+        "start": 44,
+        "end": 46,
+        "label": "NAME"
+      },
+      {
+        "start": 51,
+        "end": 54,
+        "label": "NAME"
+      },
+      {
+        "start": 61,
+        "end": 68,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 81,
+        "end": 125,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 129,
+        "end": 132,
+        "label": "NAME"
+      },
+      {
+        "start": 137,
+        "end": 139,
+        "label": "NAME"
+      },
+      {
+        "start": 215,
+        "end": 230,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 239,
+        "end": 256,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 268,
+        "end": 276,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 280,
+        "end": 290,
+        "label": "NAME"
+      },
+      {
+        "start": 303,
+        "end": 313,
+        "label": "NAME"
+      }
+    ]
+  },
+  {
+    "text": "1 Introduction [SEP] This paper begins with an informal description of GMTG. It continues with an investigation of this formalism’s generative capacity. Next, we prove that in GMTG each component grammar retains its generative power, a requirement for synchronous formalisms that Rambow and Satta (1996) called the “weak language preservation property.” Lastly, we propose a synchronous generalization of Chom-sky Normal Form, which lays the groundwork for synchronous parsing under GMTG using a CKY-style algorithm (Younger, 1967; Melamed, 2004  ). [SEP] I. Dan Melamed, G. Satta, and B. Wellington. 2004. Gener-alized multitext grammars. Technical Report 04-003, NYU Proteus Project. http://nlp.cs.nyu.edu/pubs/.",
+    "entities": [
+      {
+        "start": 2,
+        "end": 14,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 47,
+        "end": 67,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 71,
+        "end": 75,
+        "label": "NAME"
+      },
+      {
+        "start": 132,
+        "end": 151,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 176,
+        "end": 180,
+        "label": "NAME"
+      },
+      {
+        "start": 216,
+        "end": 232,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 252,
+        "end": 274,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 280,
+        "end": 303,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 316,
+        "end": 351,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 375,
+        "end": 425,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 457,
+        "end": 476,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 483,
+        "end": 487,
+        "label": "NAME"
+      },
+      {
+        "start": 496,
+        "end": 515,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 517,
+        "end": 530,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 532,
+        "end": 545,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 556,
+        "end": 685,
+        "label": "FULLNAME"
+      }
+    ]
+  },
+  {
+    "text": "4 Experiments 4.1 Setup [SEP] Evaluation Following the WAT ’16 evaluation procedure, we used BLEU (Papineni et al., 2002) and RIBES (Isozaki et al., 2010) to evaluate our models. The BLEU scores were calculated with multi-bleu.pl in Moses 2.1.1 (Koehn et al., 2007); RIBES scores were calculated with RIBES.py 1.03.1 [Cite_Footnote_7] (Isozaki et al., 2010). Follow-ing Cho et al. (2014a), we performed beam search with length-normalized log-probability to decode target sentences. We saved the trained models that performed best on the development set dur-ing training and used them to evaluate the systems with the test set. [SEP] 7 http://www.kecl.ntt.co.jp/icl/lirg/ribes/index.html",
+    "entities": [
+      {
+        "start": 55,
+        "end": 83,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 93,
+        "end": 97,
+        "label": "NAME"
+      },
+      {
+        "start": 99,
+        "end": 120,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 126,
+        "end": 131,
+        "label": "NAME"
+      },
+      {
+        "start": 133,
+        "end": 153,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 246,
+        "end": 264,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 336,
+        "end": 356,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 370,
+        "end": 388,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 633,
+        "end": 686,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "4 Experiments 4.4 Results [SEP] Our main results on the CNNDM dataset are shown in Table 1, with abstractive models in the top block and extractive models in the bot-tom block. Pointer+Coverage (See et al., 2017), Abstract-ML+RL (Paulus et al., 2017) and DCA (Celikyilmaz et al., 2018) are all sequence to se-quence learning based models with copy and cov-erage modeling, reinforcement learning and deep communicating agents extensions. SentRewrite (Hsu et al., 2018) and InconsisLoss (Chen and Bansal, 2018) all try to decompose the word by word summary generation into sentence selection from document and “sentence” level summariza-tion (or compression). Bottom-Up (Gehrmann et al., 2018) generates summaries by combines a word prediction model with the decoder attention model. The extractive models are usually based on hierarchical encoders (SummaRuNNer; Nalla-pati et al. 2017 and NeuSum; Cheng and Lapata 2016). They have been extended with reinforce-ment learning (Refresh; Narayan et al. 2018 and BanditSum; Dong et al. 2018), Maximal Marginal Relevance (NeuSum-MMR; Zhou et al. 2018), la-tent variable modeling (LatentSum; Zhang et al. 2018) and syntactic compression (JECS; Xu and Durrett 2019). Lead3 is a baseline which sim-ply selects the first three sentences. Our model H IBERT S (in-domain), which only use one pre-training stage on the in-domain CNNDM training set, outperforms all of them and differences be-tween them are all significant with a 0.95 confi-dence interval (estimated with the ROUGE script). Note that pre-training H IBERT S (in-domain) is very fast and it only takes around 30 minutes for one epoch on the CNNDM training set. Our models with two pre-training stages (H IBERT S ) or larger size (H IBERT M ) perform even better and H IBERT M outperforms BERT by 0.5 ROUGE . We also implemented two baselines. One is the hierarchical transformer summarization model (HeriTransfomer; described in 3.3) without pre-training. Note the setting for HeriTransfomer is (L = 4,H = 300 and A = 4) . We can see that the pre-training (details in Section 3.2) leads to a +1.25 ROUGE improvement. Another base-line is based on a pre-trained BERT (Devlin et al., 2018) [Cite_Footnote_7] and finetuned on the CNNDM dataset. We used the BERT base model because our 16G RAM V100 GPU cannot fit BERT large for the summa-rization task even with batch size of 1. The posi-tional embedding of BERT supports input length up to 512 words, we therefore split documents with more than 10 sentences into multiple blocks (each block with 10 sentences 8 ). We feed each block (the BOS and EOS tokens of each sentence are replaced with [CLS] and [SEP] tokens) into BERT and use the representation at [CLS] token to classify each sentence. Our model H IBERT S outperforms BERT by 0.4 to 0.5 ROUGE despite with only half the number of model parameters (H IBERT S 54.6M v.s. BERT 110M). [SEP] 7 Our BERT baseline is adapted from this imple-mentation https://github.com/huggingface/pytorch-pretrained-BERT",
+    "entities": [
+      {
+        "start": 56,
+        "end": 61,
+        "label": "NAME"
+      },
+      {
+        "start": 177,
+        "end": 212,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 214,
+        "end": 250,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 255,
+        "end": 285,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 437,
+        "end": 467,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 472,
+        "end": 508,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 658,
+        "end": 691,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 888,
+        "end": 917,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 974,
+        "end": 1002,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 1007,
+        "end": 1034,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 1065,
+        "end": 1093,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 1123,
+        "end": 1151,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 1180,
+        "end": 1205,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 1208,
+        "end": 1213,
+        "label": "NAME"
+      },
+      {
+        "start": 1287,
+        "end": 1308,
+        "label": "NAME"
+      },
+      {
+        "start": 1512,
+        "end": 1517,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 1550,
+        "end": 1571,
+        "label": "NAME"
+      },
+      {
+        "start": 1703,
+        "end": 1712,
+        "label": "NAME"
+      },
+      {
+        "start": 1731,
+        "end": 1740,
+        "label": "NAME"
+      },
+      {
+        "start": 1801,
+        "end": 1806,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 1901,
+        "end": 1915,
+        "label": "NAME"
+      },
+      {
+        "start": 2162,
+        "end": 2166,
+        "label": "NAME"
+      },
+      {
+        "start": 2255,
+        "end": 2259,
+        "label": "NAME"
+      },
+      {
+        "start": 2311,
+        "end": 2315,
+        "label": "NAME"
+      },
+      {
+        "start": 2754,
+        "end": 2763,
+        "label": "NAME"
+      },
+      {
+        "start": 2776,
+        "end": 2780,
+        "label": "NAME"
+      },
+      {
+        "start": 2952,
+        "end": 3006,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "6 Experiments and Results [SEP] For latent morpheme representations, we used the Donga news article corpus. The Donga cor-pus contains 366,636 sentences with 25.09 words on average. The Domain of this corpus cov-ers typical news articles such as health, entertain-ment, technology, politics, world and others. We ran Kokoma Korean morpheme analyzer [Cite_Footnote_4] on each sentence of the Donga corpus to divide words into morphemes to build latent morpheme representa-tions. [SEP] 4 http://kkma.snu.ac.kr/",
+    "entities": [
+      {
+        "start": 36,
+        "end": 67,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 81,
+        "end": 106,
+        "label": "NAME"
+      },
+      {
+        "start": 112,
+        "end": 125,
+        "label": "NAME"
+      },
+      {
+        "start": 135,
+        "end": 180,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 216,
+        "end": 308,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 317,
+        "end": 348,
+        "label": "NAME"
+      },
+      {
+        "start": 349,
+        "end": 366,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 391,
+        "end": 403,
+        "label": "NAME"
+      },
+      {
+        "start": 444,
+        "end": 476,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 486,
+        "end": 508,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "5 Experiments 5.1 Setting [SEP] We evaluated the effectiveness of the proposed ap-proach for Chinese-to-English (CE), Japanese-to- English (JE) and French-to-English (FE) transla-tion tasks. The datasets officially provided for the patent machine translation task at NTCIR-9 (Goto et al., 2011) were used for the CE and JE tasks. The development and test sets were both provided for the CE task while only the test set was provided for the JE task. Therefore, we used the sentences from the NTCIR-8 JE test set as the development set. Word segmentation was done by BaseSeg (Zhao et al., 2006) for Chinese and Mecab [Cite_Footnote_4] for Japanese. For the FE language pair, we used stan-dard data for the WMT 2014 translation task. The training sets for CE, JE and FE tasks contain 1M, 3M and 2M sentence pairs, respectively. [SEP] 4 http://sourceforge.net/projects/mecab/files/",
+    "entities": [
+      {
+        "start": 93,
+        "end": 116,
+        "label": "NAME"
+      },
+      {
+        "start": 148,
+        "end": 170,
+        "label": "NAME"
+      },
+      {
+        "start": 232,
+        "end": 294,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 491,
+        "end": 510,
+        "label": "NAME"
+      },
+      {
+        "start": 565,
+        "end": 592,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 609,
+        "end": 632,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 704,
+        "end": 729,
+        "label": "NAME"
+      },
+      {
+        "start": 833,
+        "end": 877,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "3 Prosodic Model 3.3 Prosodic Model Training [SEP] In our experiments, we investigate two kinds of training methods for prosodic modeling. The first one is a supervised method where models are trained using all the labeled data. The second is a semi-supervised method using co-training algo-rithm (Blum and Mitchell, 1998), described in Algo-rithm 1. Given a set L of labeled data and a set U of unlabeled data with two views, it then iterates in the following procedure. The algorithm first creates a smaller pool U ′ containing unlabeled data from U. It uses L i (i = 1, 2) to train two distinct classifiers: the acoustic classifier h [Cite_Footnote_1] , and the lexical classifier h 2 . We use function V i (i = 1, 2) to represent that only a single view is used for training h 1 or h 2 . These two classifiers are used to make predictions for the unla-beled set U ′ , and only when they agree on the predic-tion for a sample, their predicted class is used as the label for this sample. Then among these self-labeled samples, the most confident ones by one classifier are added to the data set L i for training the other classifier. This iteration continues until reaching the defined number of iterations. In our experiment, the size of the pool U´ is 5 times of the size of training data L i , and the size of the added self-labeled ex-ample set, D h i , is 5% of L i . For the newly selected D h i , the distribution of the positive and negative ex-amples is the same as that of the training data L i . [SEP] 1 LIBSVM – A Library for Support Vector Machines, loca-tion: http://www.csie.ntu.edu.tw/˜cjlin/libsvm/",
+    "entities": [
+      {
+        "start": 2,
+        "end": 16,
+        "label": "NAME"
+      },
+      {
+        "start": 21,
+        "end": 44,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 99,
+        "end": 137,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 1517,
+        "end": 1563,
+        "label": "NAME"
+      },
+      {
+        "start": 1576,
+        "end": 1617,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "1 Introduction [SEP] However, detecting the titles and prose seg-ments in an HTML document is difficult for two reasons. One of them is the flexibility of HTML, which allows the same typographic layout to be represented in code in multiple ways. Tags are also nested with varying depths. Figure 1 illus-trates this problem: similar title and prose text seg-ments from four website privacy policies [Cite_Footnote_2] have al-together different HTML tag structures. The sec-ond problem is that it is not straightforward to dis-tinguish the information (encoded in HTML) that is necessary for title-prose detection from the rest of the HTML structure, including unrelated links, multiple tags with little or no content and page headers and footers. Sieving only useful informa-tion from these pages requires a flexible approach. [SEP] 2 All the policies were retrieved on 2018-01-20, from the below URLs: https://rule.alibaba.com/rule/detail/2034.htm https://www.apple.com/legal/privacy/en-ww/ https://www.cbsinteractive.com/legal/cbsi/privacy-policy https://help.bet365.com/en/privacy-policy",
+    "entities": [
+      {
+        "start": 77,
+        "end": 90,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 155,
+        "end": 159,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 288,
+        "end": 296,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 373,
+        "end": 397,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 398,
+        "end": 415,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 443,
+        "end": 447,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 590,
+        "end": 611,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 633,
+        "end": 637,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 902,
+        "end": 947,
+        "label": "URL"
+      },
+      {
+        "start": 948,
+        "end": 990,
+        "label": "URL"
+      },
+      {
+        "start": 991,
+        "end": 1047,
+        "label": "URL"
+      },
+      {
+        "start": 1048,
+        "end": 1089,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "2 Japanese Morphology [SEP] In order to understand the task of lexicon acquisi-tion, we briefly describe the Japanese morpholog-ical analyzer JUMAN. [Cite_Footnote_1] We explain Japanese mor-phemes in Section 2.1, morphological constraints in Section 2.2, and unknown morpheme processing in Section 2.3. [SEP] 1 http://nlp.kuee.kyoto-u.ac.jp/nl-resource/juman.html",
+    "entities": [
+      {
+        "start": 2,
+        "end": 21,
+        "label": "NAME"
+      },
+      {
+        "start": 149,
+        "end": 166,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 214,
+        "end": 239,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 260,
+        "end": 287,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 312,
+        "end": 364,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "p = Bv (5) 3.3 Datasets [SEP] We built two datasets of adjective-noun phrases for the present research, one with color terms and one with intensional adjectives. 6 Color terms. This dataset is populated with a ran-domly selected set of adjective-noun pairs from the space presented above. From the 11 colors in the ba-sic set proposed by Berlin and Kay (1969), we cover 7 (black, blue, brown, green, red, white, and yel-low), since the remaining (grey, orange, pink, and purple) are not in the 700 most frequent set of ad-jectives in the corpora used. From an original set of 412 ANs, 43 were manually removed because of suspected parsing errors (e.g. white photograph, for black and white photograph) or because the head noun was semantically transparent (white variety). The remaining 369 ANs were tagged independently by the second and fourth authors of this paper, both native English speaker linguists, as intersective (e.g. white towel), subsective (e.g. white wine), or id-iomatic, i.e. compositionally non-transparent (e.g. black hole). They were allowed the assignment of at most two labels in case of polysemy, for instance for black staff for the person vs. physical object senses of the noun or yellow skin for the race vs. literally painted interpretations of the AN. In this paper, only the first label (most frequent interpretation, accord-ing to the judges) has been used. The κ coefficient of the annotation on the three categories (first interpre-tation only) was 0.87 (conf. int. 0.82-0.92, according to Fleiss et al. (1969)), observed agreement 0.96. [Cite_Footnote_7] There were too few instances of idioms (17) for a quantitative analysis of the sort presented here, so these are collapsed with the subsective class in what follows. The dataset as used here consists of 239 intersective and 130 subsective ANs. [SEP] 7 Code for the computation of inter-annotator agreement by Stefan Evert, available at http://www.collocations.de/temp/kappa_example.zip.",
+    "entities": [
+      {
+        "start": 15,
+        "end": 23,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 55,
+        "end": 77,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 113,
+        "end": 124,
+        "label": "NAME"
+      },
+      {
+        "start": 338,
+        "end": 359,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 370,
+        "end": 424,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 576,
+        "end": 583,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 585,
+        "end": 587,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 787,
+        "end": 794,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 828,
+        "end": 853,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 911,
+        "end": 942,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 944,
+        "end": 972,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 977,
+        "end": 1043,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 1138,
+        "end": 1149,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 1207,
+        "end": 1218,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 1393,
+        "end": 1406,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 1482,
+        "end": 1544,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 1546,
+        "end": 1569,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 1571,
+        "end": 1588,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 1629,
+        "end": 1631,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 1792,
+        "end": 1831,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 1841,
+        "end": 1910,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 1925,
+        "end": 1974,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "3 Building the CatVar [SEP] The CatVar is web-browseable at  http://clipdemos.umiacs.umd.edu/catvar/. Figure 2 shows the CatVar web-based interface with the hunger cluster as an example. The interface allows searching clusters using regular expressions as well as cluster length restrictions. The database is also available for researchers in perl/C and lisp searchable formats.",
+    "entities": [
+      {
+        "start": 15,
+        "end": 21,
+        "label": "NAME"
+      },
+      {
+        "start": 32,
+        "end": 38,
+        "label": "NAME"
+      },
+      {
+        "start": 157,
+        "end": 171,
+        "label": "GENERICMENTION"
+      }
+    ]
+  },
+  {
+    "text": "5 Experiments and Results 5.2 Experiments on Veracity-based Datasets [SEP] We implement our models and DeClarE with Theano [Cite_Footnote_3] , and use the original codes of other base-lines. As DeClarE is not yet open-source, we con-sult with its developers for our implementation. [SEP] 3 http://deeplearning.net/software/theano/",
+    "entities": [
+      {
+        "start": 103,
+        "end": 110,
+        "label": "NAME"
+      },
+      {
+        "start": 116,
+        "end": 122,
+        "label": "NAME"
+      },
+      {
+        "start": 124,
+        "end": 139,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 290,
+        "end": 330,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "4 Experimental Evaluation 4.4 Combination Metrics [SEP] M T +R TE R uses all M T R and R TE R features, combining matching and entailment evidence. [Cite_Footnote_3] [SEP] 3 Software for R TE R and M T +R TE R is available from http://nlp.stanford.edu/software/mteval.shtml.",
+    "entities": [
+      {
+        "start": 56,
+        "end": 67,
+        "label": "NAME"
+      },
+      {
+        "start": 87,
+        "end": 93,
+        "label": "NAME"
+      },
+      {
+        "start": 187,
+        "end": 193,
+        "label": "NAME"
+      },
+      {
+        "start": 228,
+        "end": 273,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "4 Experiments on DUC 2004 data 4.2 MEAD summarization toolkit [SEP] MEAD [Cite_Footnote_2] is a publicly available toolkit for extractive multi-document summarization. Although it comes as a centroid-based summarization system by de-fault, its feature set can be extended to implement other methods. [SEP] 2 http://www.summarization.com",
+    "entities": [
+      {
+        "start": 17,
+        "end": 25,
+        "label": "NAME"
+      },
+      {
+        "start": 35,
+        "end": 61,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 68,
+        "end": 72,
+        "label": "NAME"
+      },
+      {
+        "start": 73,
+        "end": 90,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 115,
+        "end": 166,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 191,
+        "end": 226,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 244,
+        "end": 255,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 285,
+        "end": 298,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 308,
+        "end": 336,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "References [SEP] Representation learning of knowledge bases aims to embed both entities and relations into a low-dimensional space. Most existing methods only consider direct relations in representation learning. We argue that multiple-step relation paths also contain rich inference patterns be-tween entities, and propose a path-based representation learning model. This model considers relation paths as translations between entities for representation learn-ing, and addresses two key challenges: (1) Since not all relation paths are reliable, we design a path-constraint resource allo-cation algorithm to measure the reliability of relation paths. (2) We represent relation paths via semantic composition of relation embeddings. Experimental results on real-world datasets show that, as com-pared with baselines, our model achieves significant and consistent improvements on knowledge base completion and re-lation extraction from text. The source code of this paper can be obtained from  https://github.com/mrlyk423/relation_extraction.",
+    "entities": [
+      {
+        "start": 17,
+        "end": 59,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 79,
+        "end": 87,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 92,
+        "end": 101,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 109,
+        "end": 130,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 168,
+        "end": 184,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 227,
+        "end": 255,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 274,
+        "end": 292,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 326,
+        "end": 366,
+        "label": "NAME"
+      },
+      {
+        "start": 389,
+        "end": 403,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 407,
+        "end": 436,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 689,
+        "end": 732,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 758,
+        "end": 777,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 880,
+        "end": 905,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 994,
+        "end": 1041,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "2 A Parallel Corpus of Literary Texts 2.3 T/V Gold Labels for English Utterances [SEP] Choice of English units to label. On the German side, we assign the T/V labels to pronouns, and the most straightforward way of setting up annotation projection would be to label their word-aligned En-glish pronouns as T/V. However, pronouns are not necessarily translated into pronouns; additionally, we found word alignment accuracy for pronouns, as a function of word class, to be far from perfect. For these reasons, we decided to treat complete sentences as either T or V. This means that sentence alignment is sufficient for projection, but English sentences can receive conflicting labels, if a German sentence con-tains both a T and a V label. However, this occurs very rarely: of the 76K German sentences with T or V pronouns, only 515, or less than 1%, contain both. Our projection on the English side results in 53K V and 35K T sentences, of which 731 are labeled as both T and V. Finally, from the English labeled sentences we ex-tracted a training set with 72 novels (63K sentences) and a test set with 21 novels (15K sentences). [Cite_Footnote_4] [SEP] 4 The corpus can be downloaded for research purposes from http://www.nlpado.de/~sebastian/data.shtml.",
+    "entities": [
+      {
+        "start": 2,
+        "end": 37,
+        "label": "NAME"
+      },
+      {
+        "start": 42,
+        "end": 80,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 97,
+        "end": 110,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 155,
+        "end": 165,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 169,
+        "end": 177,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 398,
+        "end": 421,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 581,
+        "end": 599,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 806,
+        "end": 821,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 997,
+        "end": 1022,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 1039,
+        "end": 1051,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 1089,
+        "end": 1097,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 1103,
+        "end": 1128,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 1130,
+        "end": 1147,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 1212,
+        "end": 1254,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "4 Experimentation 4.2 Experimental Settings [SEP] In all our experiments, both the constituency and dependency parse trees are produced by Stan-ford Parser . Specially, we train the parser on the GENIA Treebank 1.0 [Cite_Footnote_3] (Tateisi et al., 2005), which contains Penn Treebank-style syntactic (phrase structure) annotation for the GENIA corpus. The parser achieves the performance of 87.12% in F1-score in terms of 10-fold cross-validation on GENIA TreeBank 1.0. [SEP] 3 http://www.geniaproject.org/genia-corpus/treebank",
+    "entities": [
+      {
+        "start": 196,
+        "end": 214,
+        "label": "NAME"
+      },
+      {
+        "start": 215,
+        "end": 232,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 272,
+        "end": 331,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 340,
+        "end": 352,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 393,
+        "end": 470,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 480,
+        "end": 529,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "3 Building the CatVar [SEP] The CatVar database was developed using a combina-tion of resources and algorithms including the Lexi-cal Conceptual Structure (LCS) Verb and Preposition Databases (Dorr, 2001), the Brown Corpus section of the Penn Treebank (Marcus et al., 1993), an English mor-phological analysis lexicon developed for PC-Kimmo (Englex) (Antworth, 1990), NOMLEX (Macleod et al., 1998), Longman Dictionary of Contemporary English (LDOCE) 3 (Procter, 1983), WordNet 1.6 (Fellbaum, 1998)  , and the Porter stemmer. The contribution of each of these sources is clearly labeled in the CatVar database, thus enabling the use of different cross-sections of the re-source for different applications. 4 [SEP] Christiane Fellbaum. 1998. WordNet: An Electronic Lexical Database. MIT Press. http://www.cogsci.princeton.edu/˜wn [2000, Septem-ber 7].",
+    "entities": [
+      {
+        "start": 15,
+        "end": 21,
+        "label": "NAME"
+      },
+      {
+        "start": 32,
+        "end": 47,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 192,
+        "end": 204,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 210,
+        "end": 251,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 252,
+        "end": 273,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 332,
+        "end": 349,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 350,
+        "end": 366,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 368,
+        "end": 374,
+        "label": "NAME"
+      },
+      {
+        "start": 375,
+        "end": 397,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 399,
+        "end": 449,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 452,
+        "end": 467,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 469,
+        "end": 480,
+        "label": "NAME"
+      },
+      {
+        "start": 481,
+        "end": 497,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 509,
+        "end": 523,
+        "label": "NAME"
+      },
+      {
+        "start": 593,
+        "end": 608,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 713,
+        "end": 732,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 740,
+        "end": 779,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 781,
+        "end": 790,
+        "label": "NAME"
+      },
+      {
+        "start": 792,
+        "end": 827,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "2 Test Set for Evaluating Machine Translation Quality Translation Quality [SEP] The term S i indicates a similarity between a trans-lated sentence and its reference translation, and λ S i is a weight for the similarity. Many methods for cal-culating the similarity have been proposed (Niessen et al., 2000; Akiba et al., 2001; Papineni et al., 2002; NIST, 2002; Leusch et al., 2003; Turian et al., 2003; Babych and Hartley, 2004; Lin and Och, 2004; Banerjee and Lavie, 2005; Gimeńez et al., 2005). In our research, 23 scores, namely BLEU (Papineni et al., 2002) with maximum n-gram lengths of 1, 2, 3, and 4, NIST (NIST, 2002) with maximum n-gram lengths of 1, 2, 3, 4, and 5, GTM (Turian et al., 2003) with exponents of 1.0, 2.0, and 3.0, METEOR (ex-act) (Banerjee and Lavie, 2005), WER (Niessen et al., 2000), PER (Leusch et al., 2003), and ROUGE (Lin, 2004) with n-gram lengths of 1, 2, 3, and 4 and 4 variants (LCS, S∗, SU∗, W-1.2), were used to cal-culate each similarity S i . Therefore, the value of m in Eq. (1) was 23. Japanese word segmentation was performed by using JUMAN [Cite_Footnote_4] in our experiments. [SEP] 4 http://www.kc.t.u-tokyo.ac.jp/nl-resource/juman.html",
+    "entities": [
+      {
+        "start": 2,
+        "end": 53,
+        "label": "NAME"
+      },
+      {
+        "start": 54,
+        "end": 73,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 105,
+        "end": 115,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 155,
+        "end": 176,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 534,
+        "end": 538,
+        "label": "NAME"
+      },
+      {
+        "start": 610,
+        "end": 614,
+        "label": "NAME"
+      },
+      {
+        "start": 678,
+        "end": 681,
+        "label": "NAME"
+      },
+      {
+        "start": 741,
+        "end": 747,
+        "label": "NAME"
+      },
+      {
+        "start": 785,
+        "end": 788,
+        "label": "NAME"
+      },
+      {
+        "start": 813,
+        "end": 816,
+        "label": "NAME"
+      },
+      {
+        "start": 844,
+        "end": 849,
+        "label": "NAME"
+      },
+      {
+        "start": 1029,
+        "end": 1055,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 1079,
+        "end": 1084,
+        "label": "NAME"
+      },
+      {
+        "start": 1131,
+        "end": 1183,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "1 Introduction [SEP] Lycos Retriever [Cite_Footnote_1] is something new on the Web: a patent-pending information fusion engine. That is, unlike a search engine, rather than returning ranked documents links in response to a query, Lycos Re-triever categorizes and disambiguates topics, col-lects documents on the Web relevant to the disambiguated sense of that topic, extracts para-graphs and images from these documents and ar-ranges these into a coherent summary report or background briefing on the topic at something like the level of the first draft of a Wikipedia article. These topical pages are then arranged into a browsable hierarchy that allows users to find re-lated topics by browsing as well as searching. [SEP] 1 http://www.lycos.com/retriever.html. Work on Retriever was done while author was employed at Lycos.",
+    "entities": [
+      {
+        "start": 21,
+        "end": 36,
+        "label": "NAME"
+      },
+      {
+        "start": 37,
+        "end": 54,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 84,
+        "end": 126,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 230,
+        "end": 246,
+        "label": "NAME"
+      },
+      {
+        "start": 445,
+        "end": 493,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 621,
+        "end": 642,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 727,
+        "end": 762,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "4 Experiments 4.1 Datasets and Experimental Settings [SEP] We conducted experiments on a real-world news recommendation dataset [Cite_Footnote_3] collected from MSN News logs during Dec. 13, 2018 and Jan. 12, 2019. In addition, we crawled the search queries and titles of browsed webpages from the logs of the Bing search engine. The detailed statistics of this dataset are summarized in Table 1. The news data in the last week is used for test, and the rest is used for model training. In addition, we randomly sampled 10% of the training data for validation. [SEP] 3 Some publicly available resources can be found at https://github.com/wuch15/NRHUB.",
+    "entities": [
+      {
+        "start": 87,
+        "end": 127,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 128,
+        "end": 145,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 161,
+        "end": 174,
+        "label": "NAME"
+      },
+      {
+        "start": 239,
+        "end": 288,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 294,
+        "end": 328,
+        "label": "NAME"
+      },
+      {
+        "start": 397,
+        "end": 560,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 569,
+        "end": 602,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 619,
+        "end": 650,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "7 Gender Classification Results [SEP] Table 4 combines the results of the experiments re-ported in the previous sections, assessed on both the Fisher and Switchboard corpora for gender classification. The evaluation measure was the standard classifier accuracy, that is, the fraction of test conversation sides whose gender was correctly predicted. Baseline performance (always guessing female) yields 57.47% and 51.6% on Fisher and Switchboard respectively. As noted before, the standard reference algorithm is Boulis and Osten-dorf (2005), and all cited relative error reductions are based on this established standard, as imple-mented in this paper. Also, as a second reference, performance is also cited for the popular “Gender Genie”, an online gender-detector [Cite_Footnote_7] , based on the manually weighted word-level sociolinguistic fea-tures discussed in Argamon et al. (2003). The ad-ditional table rows are described in Sections 4-6, and cumulatively yield substantial improvements over the Boulis and Ostendorf (2005) standard. [SEP] 7 http://bookblog.net/gender/genie.php",
+    "entities": [
+      {
+        "start": 2,
+        "end": 31,
+        "label": "NAME"
+      },
+      {
+        "start": 38,
+        "end": 45,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 143,
+        "end": 149,
+        "label": "NAME"
+      },
+      {
+        "start": 154,
+        "end": 165,
+        "label": "NAME"
+      },
+      {
+        "start": 178,
+        "end": 199,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 241,
+        "end": 260,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 349,
+        "end": 369,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 1005,
+        "end": 1032,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 1049,
+        "end": 1087,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "3 Lexicon Acquisition 3.2 System Architecture [SEP] Figure 1 shows the system architecture. Each sen-tence in texts is processed by the morphological an-alyzer JUMAN and the dependency parser KNP. [Cite_Footnote_2] JUMAN consults a hand-crafted dictionary and an automatically constructed dictionary. KNP is used to form a phrasal unit called bunsetsu by chunking morphemes. [SEP] 2 http://nlp.kuee.kyoto-u.ac.jp/nl-resource/knp.html",
+    "entities": [
+      {
+        "start": 2,
+        "end": 21,
+        "label": "NAME"
+      },
+      {
+        "start": 26,
+        "end": 45,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 174,
+        "end": 195,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 197,
+        "end": 214,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 383,
+        "end": 433,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "7 Passage Extraction [SEP] When a passage was identified as being potentially interesting, it was then fully parsed to see if an expression denoting the topic was the Discourse Topic of the passage. Discourse Topic is an under-theorized notion in linguistic theory: not all linguists agree that the notion of Discourse Topic is required in discourse analysis at all (cf. Asher, 2004). For our purposes, however, we for-mulated a set of patterns for identifying Discourse Topics on the basis of the output of the CMU Link Parser [Cite_Footnote_6] the system uses. [SEP] 6 http://www.link.cs.cmu.edu/link/",
+    "entities": [
+      {
+        "start": 2,
+        "end": 20,
+        "label": "NAME"
+      },
+      {
+        "start": 167,
+        "end": 182,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 199,
+        "end": 214,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 371,
+        "end": 382,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 512,
+        "end": 527,
+        "label": "NAME"
+      },
+      {
+        "start": 528,
+        "end": 545,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 571,
+        "end": 603,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "4 Training the KB-Retriever 4.3 Experimental Settings [SEP] We choose the InCar Assistant dataset (Eric et al., 2017) including three distinct domains: naviga-tion, weather and calendar domain. For weather domain, we follow Wen et al. (2018) to separate the highest temperature, lowest temperature and weather attribute into three different columns. For calendar domain, there are some dialogues with-out a KB or incomplete KB. In this case, we padding a special token “-” in these incomplete KBs. Our framework is trained separately in these three domains, using the same train/validation/test split sets as Eric et al. (2017). To justify the gen-eralization of the proposed model, we also use an-other public CamRest dataset (Wen et al., 2017b) and partition the datasets into training, validation and testing set in the ratio 3:1:1. [Cite_Footnote_3] Especially, we hired some human experts to format the CamRest dataset by equipping the corresponding KB to ev-ery dialogues. [SEP] 3 The dataset can be available at: https://github.com/yizhen20133868/Retriever-Dialogue",
+    "entities": [
+      {
+        "start": 15,
+        "end": 27,
+        "label": "NAME"
+      },
+      {
+        "start": 74,
+        "end": 97,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 99,
+        "end": 116,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 152,
+        "end": 192,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 258,
+        "end": 319,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 609,
+        "end": 627,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 711,
+        "end": 726,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 728,
+        "end": 745,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 1020,
+        "end": 1072,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "4 Experiments and Results 4.1 Experiment Design [SEP] For empirical comparison with SVM and bootstrap-ping, we evaluated LP on widely used benchmark corpora - “interest”, “line” and the data in English lexical sample task of SENSEVAL-3 (including all 57 English words ) [Cite_Footnote_2] . from 1% to 100%. The lower table lists the official result of baseline (using most frequent sense heuristics) and top 3 sys-tems in ELS task of SENSEVAL-3. [SEP] 2 Available at http://www.senseval.org/senseval3",
+    "entities": [
+      {
+        "start": 30,
+        "end": 47,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 84,
+        "end": 87,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 92,
+        "end": 106,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 121,
+        "end": 123,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 139,
+        "end": 156,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 159,
+        "end": 169,
+        "label": "NAME"
+      },
+      {
+        "start": 171,
+        "end": 177,
+        "label": "NAME"
+      },
+      {
+        "start": 194,
+        "end": 235,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 251,
+        "end": 267,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 270,
+        "end": 287,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 352,
+        "end": 399,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 422,
+        "end": 444,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 467,
+        "end": 500,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "2 CheckList 2.3 Generating Test Cases at Scale [SEP] Open source We release an implementation of CheckList at  https://github.com/marcotcr/checklist. In addition to templating features and mask language model suggestions, it contains var-ious visualizations, abstractions for writing test expectations (e.g. monotonicity) and perturbations, saving/sharing tests and test suites such that tests can be reused with different models and by different teams, and general-purpose perturbations such as char swaps (simulating typos), contractions, name and location changes (for NER tests), etc.",
+    "entities": [
+      {
+        "start": 2,
+        "end": 11,
+        "label": "NAME"
+      },
+      {
+        "start": 16,
+        "end": 46,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 53,
+        "end": 64,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 111,
+        "end": 148,
+        "label": "URL"
+      },
+      {
+        "start": 165,
+        "end": 184,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 189,
+        "end": 220,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 243,
+        "end": 257,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 259,
+        "end": 301,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 308,
+        "end": 320,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 326,
+        "end": 339,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 341,
+        "end": 377,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 458,
+        "end": 487,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 496,
+        "end": 506,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 527,
+        "end": 539,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 541,
+        "end": 566,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 572,
+        "end": 581,
+        "label": "GENERICMENTION"
+      }
+    ]
+  },
+  {
+    "text": "4 Experiments 4.1 Setup [SEP] Evaluation Following the WAT ’16 evaluation procedure, we used BLEU (Papineni et al., 2002) and RIBES (Isozaki et al., 2010) to evaluate our models. The BLEU scores were calculated with multi-bleu.pl in Moses 2.1.1 [Cite_Footnote_6] (Koehn et al., 2007); RIBES scores were calculated with RIBES.py 1.03.1 (Isozaki et al., 2010). Follow-ing Cho et al. (2014a), we performed beam search with length-normalized log-probability to decode target sentences. We saved the trained models that performed best on the development set dur-ing training and used them to evaluate the systems with the test set. [SEP] 6 http://www.statmt.org/moses/",
+    "entities": [
+      {
+        "start": 93,
+        "end": 97,
+        "label": "NAME"
+      },
+      {
+        "start": 98,
+        "end": 121,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 126,
+        "end": 131,
+        "label": "NAME"
+      },
+      {
+        "start": 132,
+        "end": 154,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 216,
+        "end": 229,
+        "label": "NAME"
+      },
+      {
+        "start": 233,
+        "end": 244,
+        "label": "NAME"
+      },
+      {
+        "start": 245,
+        "end": 262,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 263,
+        "end": 283,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 319,
+        "end": 334,
+        "label": "NAME"
+      },
+      {
+        "start": 335,
+        "end": 357,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 370,
+        "end": 388,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 635,
+        "end": 663,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "1 Introduction [SEP] In addition, we decided to use the output of ChaSen 2.2.9 and CaboCha 0.34 [Cite_Footnote_4] instead of the morphological information and the dependency in-formation provided by the Kyoto Corpus since clas-sification of the joshi (particles) in the Corpus was not satisfactory for our purpose. Since CaboCha was trained by Kyoto Corpus 3.0, CaboCha’s depen-dency output is very similar to that of the Corpus. [SEP] 4 http://cl.aist-nara.ac.jp/˜taku-ku/software/cabocha/",
+    "entities": [
+      {
+        "start": 66,
+        "end": 78,
+        "label": "NAME"
+      },
+      {
+        "start": 83,
+        "end": 95,
+        "label": "NAME"
+      },
+      {
+        "start": 96,
+        "end": 113,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 203,
+        "end": 215,
+        "label": "NAME"
+      },
+      {
+        "start": 245,
+        "end": 262,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 321,
+        "end": 328,
+        "label": "NAME"
+      },
+      {
+        "start": 344,
+        "end": 360,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 422,
+        "end": 428,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 438,
+        "end": 490,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "4 Novel Labeled Dataset [SEP] Therefore, a novel dataset was created. We rendered PDF articles to JPEG image sets (using the ImageMagick package, at 72dpi), and used an open source utility (Tzutalin, 2015)  to manually annotate regions. Version 1 of this dataset consists of region annotations for 100 scientific articles sampled from the PMC Open Access set. The col-lection will be available at https://github.com/cxsoto/article-regions, and in-cludes scripts to download and render the original article PDFs to images, as well as to convert the annotations to various formats. The default format is PASCAL VOC. Nine labeled region classes are included in the annotations: [SEP] Tzutalin. 2015. Labelimg. https://github.com/tzutalin/labelImg.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 23,
+        "label": "NAME"
+      },
+      {
+        "start": 41,
+        "end": 56,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 82,
+        "end": 113,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 190,
+        "end": 204,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 237,
+        "end": 246,
+        "label": "NAME"
+      },
+      {
+        "start": 275,
+        "end": 358,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 397,
+        "end": 438,
+        "label": "URL"
+      },
+      {
+        "start": 454,
+        "end": 578,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 602,
+        "end": 612,
+        "label": "NAME"
+      },
+      {
+        "start": 614,
+        "end": 641,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 681,
+        "end": 706,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 707,
+        "end": 743,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "3 Our Discourse-Based Measures 3.1 Generating Discourse Trees [SEP] The discourse parser uses a dynamic Condi-tional Random Field (Sutton et al., 2007) as a pars-ing model in order to infer the probability of all possible discourse tree constituents. The inferred (posterior) probabilities are then used in a proba-bilistic CKY-like bottom-up parsing algorithm to find the most likely DT. Using the standard set of 18 coarse-grained relations defined in (Carlson and Marcu, 2001), the parser achieved an F 1 -score of 79.8%, which is very close to the human agree-ment of 83%. These high scores allowed us to de-velop successful discourse similarity metrics. [Cite_Footnote_2] [SEP] 2 The discourse parser is freely available from http://alt.qcri.org/tools/",
+    "entities": [
+      {
+        "start": 2,
+        "end": 30,
+        "label": "NAME"
+      },
+      {
+        "start": 35,
+        "end": 61,
+        "label": "NAME"
+      },
+      {
+        "start": 130,
+        "end": 151,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 454,
+        "end": 479,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 504,
+        "end": 523,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 629,
+        "end": 657,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 659,
+        "end": 676,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 685,
+        "end": 757,
+        "label": "DESCRIPTION"
+      }
+    ]
+  },
+  {
+    "text": "3 Problem Formulation [SEP] The full details of SVR and its implementation are beyond the scope of this paper; interested readers are referred to Schölkopf and Smola (2002). SVM light (Joachims, 1999) is a freely available implementa-tion of SVR training that we used in our experi-ments. [Cite_Footnote_2] [SEP] 2 Available at http://svmlight.joachims.org.",
+    "entities": [
+      {
+        "start": 2,
+        "end": 21,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 48,
+        "end": 51,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 146,
+        "end": 173,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 175,
+        "end": 184,
+        "label": "NAME"
+      },
+      {
+        "start": 186,
+        "end": 200,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 243,
+        "end": 255,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 290,
+        "end": 307,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 329,
+        "end": 357,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "4 Data Sets [SEP] For experiments we categorize the datasets into three kinds: training, test and user-level. Train-ing set consists of 27k tweets, whereas the test set is manually annotated with 741 tweets. [Cite_Footnote_4] The user-level tweets consist of ≈10 million tweets from 5,191 users mapped to their user-level features. [SEP] 4 All the developed resources are available at http://www.iitp.ac.in/˜ai-nlp-ml/resources.html",
+    "entities": [
+      {
+        "start": 2,
+        "end": 11,
+        "label": "NAME"
+      },
+      {
+        "start": 79,
+        "end": 87,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 89,
+        "end": 93,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 98,
+        "end": 108,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 110,
+        "end": 207,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 208,
+        "end": 225,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 230,
+        "end": 331,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 385,
+        "end": 432,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "6 Experiments 6.1 English Experimental Settings [SEP] We use as word representation the concatena-tion of word vectors initialized to GloVe (Pen-nington et al., 2014)  , and randomly initialized pre-fix and suffix vectors of the length 1 to 4, which is inspired by Lewis et al. (2016). All affixes ap-pearing less than two times in the training data are mapped to “UNK”. [SEP] Jeffrey Pennington, Richard Socher, and Christo-pher D. Manning. 2014. GloVe: Global Vectors for Word Representation. In Empirical Methods in Nat-ural Language Processing (EMNLP). pages 1532– 1543. http://www.aclweb.org/anthology/D14-1162.",
+    "entities": [
+      {
+        "start": 18,
+        "end": 47,
+        "label": "NAME"
+      },
+      {
+        "start": 64,
+        "end": 83,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 134,
+        "end": 139,
+        "label": "NAME"
+      },
+      {
+        "start": 265,
+        "end": 284,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 448,
+        "end": 493,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 575,
+        "end": 615,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "1 Introduction [SEP] In addition, we decided to use the output of ChaSen 2.2.9 [Cite_Footnote_3] and CaboCha 0.34 instead of the morphological information and the dependency in-formation provided by the Kyoto Corpus since clas-sification of the joshi (particles) in the Corpus was not satisfactory for our purpose. Since CaboCha was trained by Kyoto Corpus 3.0, CaboCha’s depen-dency output is very similar to that of the Corpus. [SEP] 3 http://chasen.aist-nara.ac.jp/",
+    "entities": [
+      {
+        "start": 66,
+        "end": 78,
+        "label": "NAME"
+      },
+      {
+        "start": 79,
+        "end": 96,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 101,
+        "end": 113,
+        "label": "NAME"
+      },
+      {
+        "start": 129,
+        "end": 154,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 203,
+        "end": 215,
+        "label": "NAME"
+      },
+      {
+        "start": 321,
+        "end": 328,
+        "label": "NAME"
+      },
+      {
+        "start": 344,
+        "end": 360,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 436,
+        "end": 468,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "References [SEP] Deep Neural Networks (DNN) have been widely employed in industry to address vari-ous Natural Language Processing (NLP) tasks. However, many engineers find it a big over-head when they have to choose from multi-ple frameworks, compare different types of models, and understand various optimization mechanisms. An NLP toolkit for DNN models with both generality and flexibility can greatly improve the productivity of engineers by sav-ing their learning cost and guiding them to find optimal solutions to their tasks. In this pa-per, we introduce NeuronBlocks [Cite_Footnote_1] , a toolkit encapsulating a suite of neural network mod-ules as building blocks to construct various DNN models with complex architecture. This toolkit empowers engineers to build, train, and test various NLP models through simple con-figuration of JSON files. The experiments on several NLP datasets such as GLUE, WikiQA and CoNLL-2003 demonstrate the effective-ness of NeuronBlocks. [SEP] 1 Code: https://github.com/Microsoft/NeuronBlocks",
+    "entities": [
+      {
+        "start": 17,
+        "end": 37,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 102,
+        "end": 129,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 131,
+        "end": 134,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 562,
+        "end": 574,
+        "label": "NAME"
+      },
+      {
+        "start": 575,
+        "end": 592,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 992,
+        "end": 1033,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "4 Experiment 4.1 Experiment Setting [SEP] In the experiment, the basic transfer learning algorithm is co-training. The Chinese word seg-mentation tool is ICTCLAS (Zhang et al, 2003) and Google Translator [Cite_Footnote_3] is the MT for the source language. The monolingual opinion classifier is SVM light4 , word unigram/bigram features are em-ployed. [SEP] 3 https://translate.google.com",
+    "entities": [
+      {
+        "start": 2,
+        "end": 12,
+        "label": "NAME"
+      },
+      {
+        "start": 17,
+        "end": 35,
+        "label": "NAME"
+      },
+      {
+        "start": 61,
+        "end": 113,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 154,
+        "end": 161,
+        "label": "NAME"
+      },
+      {
+        "start": 162,
+        "end": 181,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 186,
+        "end": 203,
+        "label": "NAME"
+      },
+      {
+        "start": 204,
+        "end": 221,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 229,
+        "end": 255,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 261,
+        "end": 305,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 360,
+        "end": 388,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "1 Introduction [SEP] Even for state of the art methods, expansion er-rors inevitably occur and manual refinements are necessary for most practical uses requiring high precision (such as for query interpretation at com-mercial search engines). Looking at expansions from state of the art systems such as GoogleSets [Cite_Footnote_1] , we found systematic errors such as those resulting from ambiguous seed instances. For example, con-sider the following seed instances for the target set Roman Gods: [SEP] 1 http://labs.google.com/sets the North American Chapter of the ACL, pages 290–298,",
+    "entities": [
+      {
+        "start": 2,
+        "end": 14,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 30,
+        "end": 54,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 95,
+        "end": 113,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 162,
+        "end": 176,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 190,
+        "end": 210,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 254,
+        "end": 264,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 270,
+        "end": 294,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 303,
+        "end": 313,
+        "label": "NAME"
+      },
+      {
+        "start": 315,
+        "end": 330,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 343,
+        "end": 360,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 390,
+        "end": 414,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 453,
+        "end": 467,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 476,
+        "end": 497,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 507,
+        "end": 534,
+        "label": "URL"
+      },
+      {
+        "start": 535,
+        "end": 587,
+        "label": "CITATIONTAG"
+      }
+    ]
+  },
+  {
+    "text": "4 Experiments 4.1 Datasets and Evaluation Metrics [SEP] The first dataset, denoted as BOOK, is obtained from a popular Chinese book review website www. douban.com, which contains the descriptions of books and the tags collaboratively annotated by users. The second dataset, denoted as BIBTEX, is obtained from an English online bibliography web-site www.bibsonomy.org [Cite_Footnote_2] . The dataset contains the descriptions for academic papers (including the title and note for each paper) and the tags annotated by users. As shown in Table 2, the average length of descriptions in the BIBTEX dataset is much shorter than the BOOK dataset. Moreover, the BIBTEX dataset does not provide how many times each tag is annotated to a resource. [SEP] 2 The dataset can be obtained from http://www.kde.cs.uni-kassel.de/bibsonomy/dumps",
+    "entities": [
+      {
+        "start": 86,
+        "end": 90,
+        "label": "NAME"
+      },
+      {
+        "start": 183,
+        "end": 204,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 213,
+        "end": 252,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 285,
+        "end": 291,
+        "label": "NAME"
+      },
+      {
+        "start": 350,
+        "end": 367,
+        "label": "URL"
+      },
+      {
+        "start": 368,
+        "end": 385,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 413,
+        "end": 491,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 500,
+        "end": 523,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 550,
+        "end": 640,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 781,
+        "end": 828,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "3 Approach 3.1 Domain-Independent Approach (DI) [SEP] Text Collection: Using jsoup (Hedley, 2017)  , we parse the HTML file and for each non-empty tag encountered we extract a tuple consisting of the text and its XPath. [SEP] Jonathan Hedley. 2017. jsoup (1.11.3). https://jsoup.org/.",
+    "entities": [
+      {
+        "start": 2,
+        "end": 10,
+        "label": "NAME"
+      },
+      {
+        "start": 15,
+        "end": 47,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 54,
+        "end": 69,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 77,
+        "end": 82,
+        "label": "NAME"
+      },
+      {
+        "start": 83,
+        "end": 97,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 114,
+        "end": 123,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 200,
+        "end": 204,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 213,
+        "end": 218,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 226,
+        "end": 241,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 249,
+        "end": 263,
+        "label": "FULLNAME"
+      }
+    ]
+  },
+  {
+    "text": "3 Modeling 3.3.2 Blog level credibility indicators [SEP] Spam filtering To estimate the spaminess of a blog, we take a simple approach. We train an SVM classifier on a labeled splog blog dataset (Kolari et al., 2006)  using the top 1500 words for both spam and non-spam blogs as features. For each classified blog d we have a confidence value s(d). If the clas-sifier cannot make a decision (s(d) = 0) we set p spam (d) to 0, otherwise we use the following to transform s(d) into a spam prior p spam (d): where n(r, d) is the number of comments on post d. Regularity To estimate the regularity prior we use where σ interval expresses the standard deviation of the temporal intervals between two successive posts. Topical consistency Here we use an approach similar to query clarity (Cronen-Townsend and Croft, 2002): based on the list of posts from the same blog we compare the topic distribution of blog B to the topic distribution in the collection C and assign a ‘clarity’ value to B; a score further away from zero indicates a higher topical consistency. We estimate the topical consistency prior as where clarity(d) is estimated by [SEP] Kolari, P., Finin, T., Java, A., and Joshi, A. (2006). Splog blog dataset. URL: http://ebiquity.umbc.edu/resource/html/id/212/Splog-Blog-Dataset.",
+    "entities": [
+      {
+        "start": 17,
+        "end": 50,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 57,
+        "end": 71,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 176,
+        "end": 194,
+        "label": "NAME"
+      },
+      {
+        "start": 196,
+        "end": 215,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 556,
+        "end": 566,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 713,
+        "end": 732,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 768,
+        "end": 781,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 783,
+        "end": 814,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 1198,
+        "end": 1216,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 1223,
+        "end": 1287,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "4 Speech recognition experiments 4.4 Turkish [SEP] Turkish is another a highly-inflected and agglutina-tive language with relatively free word order. The same Morfessor tool (Creutz and Lagus, 2005)  as in Finnish and Estonian was applied to Turkish texts as well. Using the 360k most common words from the training corpus, 34k morph units were obtained. The training corpus consists of approximately 27M words taken from literature, law, politics, social sciences, popular science, information technology, medicine, newspapers, magazines and sports news. N-gram language models for different orders with interpolated Kneser-Ney smoothing as well as en-tropy based pruning were built for this morph lexi-con using the SRILM toolkit (Stolcke, 2002). The number of n-grams for the highest order we tried (6-grams without entropy-based pruning) are reported in Table 4. In average, there are 2.37 morphs per word including the word break symbol. [SEP] Mathias Creutz and Krista Lagus. 2005. Unsuper-vised morpheme segmentation and morphology in-duction from text corpora using Morfessor. Techni-cal Report A81, Publications in Computer and Infor-mation Science, Helsinki University of Technology. URL: http://www.cis.hut.fi/projects/morpho/.",
+    "entities": [
+      {
+        "start": 2,
+        "end": 32,
+        "label": "NAME"
+      },
+      {
+        "start": 37,
+        "end": 44,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 159,
+        "end": 173,
+        "label": "NAME"
+      },
+      {
+        "start": 175,
+        "end": 197,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 206,
+        "end": 213,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 218,
+        "end": 226,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 275,
+        "end": 322,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 324,
+        "end": 339,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 359,
+        "end": 374,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 401,
+        "end": 554,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 556,
+        "end": 578,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 605,
+        "end": 638,
+        "label": "NAME"
+      },
+      {
+        "start": 718,
+        "end": 731,
+        "label": "NAME"
+      },
+      {
+        "start": 733,
+        "end": 746,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 803,
+        "end": 840,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 858,
+        "end": 865,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 889,
+        "end": 941,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 949,
+        "end": 980,
+        "label": "FULLNAME"
+      }
+    ]
+  },
+  {
+    "text": "References [SEP] Due to their inherent capability in semantic alignment of aspects and their context words, attention mechanism and Convolutional Neu-ral Networks (CNNs) are widely applied for aspect-based sentiment classification. How-ever, these models lack a mechanism to ac-count for relevant syntactical constraints and long-range word dependencies, and hence may mistakenly recognize syntactically irrelevant contextual words as clues for judging aspect sentiment. To tackle this problem, we pro-pose to build a Graph Convolutional Network (GCN) over the dependency tree of a sentence to exploit syntactical information and word dependencies. Based on it, a novel aspect-specific sentiment classification framework is raised. Experiments on three benchmarking collections illustrate that our proposed model has comparable effectiveness to a range of state-of-the-art models [Cite_Footnote_1] , and further demon-strate that both syntactical information and long-range word dependencies are properly captured by the graph convolution structure. [SEP] 1 Code and preprocessed datasets are available at https://github.com/GeneZC/ASGCN.",
+    "entities": [
+      {
+        "start": 108,
+        "end": 127,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 193,
+        "end": 230,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 518,
+        "end": 551,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 561,
+        "end": 576,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 670,
+        "end": 720,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 753,
+        "end": 777,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 880,
+        "end": 897,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 1106,
+        "end": 1137,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "2 Background [SEP] Past research in unsupervised PoS induction has largely been driven by two different motivations: a task based perspective which has focussed on induc-ing word classes to improve various applications, and a linguistic perspective where the aim is to induce classes which correspond closely to anno-tated part-of-speech corpora. Early work was firmly situtated in the task-based setting of improving gen-eralisation in language models. Brown et al. (1992) presented a simple first-order HMM which restricted word types to always be generated from the same class. Though PoS induction was not their aim, this restriction is largely validated by empirical analysis of treebanked data, and moreover conveys the sig-nificant advantage that all the tags for a given word type can be updated at the same time, allowing very efficient inference using the exchange algorithm. This model has been popular for language mod-elling and bilingual word alignment, and an imple-mentation with improved inference called mkcls (Och, 1999) [Cite_Footnote_1] has become a standard part of statis-tical machine translation systems. [SEP] 1 Available from http://fjoch.com/mkcls.html.",
+    "entities": [
+      {
+        "start": 36,
+        "end": 62,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 323,
+        "end": 345,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 454,
+        "end": 473,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 684,
+        "end": 699,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 1022,
+        "end": 1027,
+        "label": "NAME"
+      },
+      {
+        "start": 1029,
+        "end": 1038,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 1138,
+        "end": 1180,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "3 Unsupervised Knowledge-Free Interpretable WSD 3.3 User Interface for Interpretable WSD [SEP] The graphical user interface of our system is im-plemented as a single page Web application using the React framework. [Cite_Footnote_8] The application performs disambiguation of a text entered by a user. In par-ticular, the Web application features two modes: [SEP] 8 https://facebook.github.io/react",
+    "entities": [
+      {
+        "start": 2,
+        "end": 47,
+        "label": "NAME"
+      },
+      {
+        "start": 52,
+        "end": 88,
+        "label": "NAME"
+      },
+      {
+        "start": 214,
+        "end": 231,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 365,
+        "end": 397,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "3 System Description [SEP] The new system described here is what we call the MRS Crawler. This system operates over the normalized semantic representations provided by the LinGO English Resource Grammar (ERG; Flickinger, 2000). [Cite_Footnote_3] The ERG maps surface strings to meaning representations in the format of Mini-mal Recursion Semantics (MRS; Copestake et al., 2005). MRS makes explicit predicate-argument relations, as well as partial information about scope (see below). We used the grammar together with one of its pre-packaged conditional Maxi-mum Entropy models for parse ranking, trained on a combination of encyclopedia articles and tourism brochures. Thus, the deep parsing front-end system to our MRS Crawler has not been adapted to the task or its text type; it is applied in an ‘off the shelf’ setting. We combine our system with the outputs from the best-performing 2012 submission, the system of Read et al. (2012), firstly by relying on the latter for system negation cue detection, 4 and secondly as a fall-back in sys-tem combination as described in § 3.4 below. [SEP] 3 In our experiments, we use the 1212 release of the ERG, in combination with the ACE parser ( http://sweaglesw.org/linguistics/ace/). The ERG and ACE are DELPH-IN resources; see http://www.delph-in.net.",
+    "entities": [
+      {
+        "start": 2,
+        "end": 20,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 77,
+        "end": 88,
+        "label": "NAME"
+      },
+      {
+        "start": 172,
+        "end": 202,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 204,
+        "end": 207,
+        "label": "NAME"
+      },
+      {
+        "start": 209,
+        "end": 225,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 319,
+        "end": 347,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 349,
+        "end": 352,
+        "label": "NAME"
+      },
+      {
+        "start": 354,
+        "end": 376,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 625,
+        "end": 646,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 651,
+        "end": 668,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 680,
+        "end": 709,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 717,
+        "end": 728,
+        "label": "NAME"
+      },
+      {
+        "start": 889,
+        "end": 904,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 920,
+        "end": 938,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 1129,
+        "end": 1152,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 1178,
+        "end": 1188,
+        "label": "NAME"
+      },
+      {
+        "start": 1191,
+        "end": 1228,
+        "label": "URL"
+      },
+      {
+        "start": 1251,
+        "end": 1269,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 1275,
+        "end": 1298,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "6 Experiments 6.3 Training Details [SEP] We use the open-domain word embeddings [Cite_Footnote_1] for the initialization of word vectors. We initialize other model parameters from a uniform distribu-tion U(-0.05, 0.05). The dimension of the word embedding and the size of the hidden layers are 300. The learning rate is set to 0.01 and the dropout rate is set to 0.1. Stochastic gradient de-scent is used as our optimizer. The position encod-ing is also used (Tang et al., 2016). We also com-pare the memory networks in their multiple com-putational layers version (i.e., multiple hops) and the number of hops is set to 3 as used in the men-tioned previous studies. We implemented all mod-els in the TensorFlow environment using same in-put, embedding size, dropout rate, optimizer, etc. so as to test our hypotheses, i.e., to make sure the achieved improvements do not come from else-where. Meanwhile, we can also report all evalua-tion measures discussed above 2 . 10% of the train-ing data is used as the development set. We report the best results for all models based on their F-1 Macro scores. [SEP] 1 https://github.com/mmihaltz/word2vec-GoogleNews-vectors",
+    "entities": [
+      {
+        "start": 52,
+        "end": 79,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 80,
+        "end": 97,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 460,
+        "end": 477,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 501,
+        "end": 516,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 700,
+        "end": 722,
+        "label": "NAME"
+      },
+      {
+        "start": 1108,
+        "end": 1163,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "5 Experiments 5.1 Data [SEP] We use the MALLET CRF implementation (Mc-Callum, 2002)  with the default regularization pa-rameters. [SEP] Andrew McCallum. 2002. Mallet: A machine learning for language toolkit. http://mallet.cs.umass.edu.",
+    "entities": [
+      {
+        "start": 2,
+        "end": 13,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 18,
+        "end": 22,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 40,
+        "end": 50,
+        "label": "NAME"
+      },
+      {
+        "start": 67,
+        "end": 82,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 136,
+        "end": 151,
+        "label": "FULLNAME"
+      },
+      {
+        "start": 159,
+        "end": 206,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 208,
+        "end": 234,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "4 Speech recognition experiments 4.2 Finnish [SEP] Finnish is a highly inflected language, in which words are formed mainly by agglutination and com-pounding. Finnish is also the language for which the algorithm for the unsupervised morpheme discovery (Creutz and Lagus, 2002) was originally developed. The units of the morph lexicon for the experiments in this paper were learned from a joint corpus con-taining newspapers, books and newswire stories of totally about 150 million words (CSC, 2001)  . We obtained a lexicon of 25k morphs by feeding the learning algorithm with the word list containing the 160k most common words. For language model training we used the same text corpus and the re-cently developed growing n-gram training algorithm (Siivola and Pellom, 2005). The amount of resulted n-grams are listed in Table 4. The average length of a morph is such that a word corresponds to 2.52 morphs including a word break symbol. [SEP] CSC Tieteellinen laskenta Oy. 2001. Finnish Lan-guage Text Bank: Corpora Books, Newspapers, Magazines and Other. http://www.csc.fi/kielipankki/.",
+    "entities": [
+      {
+        "start": 2,
+        "end": 32,
+        "label": "NAME"
+      },
+      {
+        "start": 37,
+        "end": 44,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 51,
+        "end": 58,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 202,
+        "end": 251,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 253,
+        "end": 275,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 320,
+        "end": 333,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 488,
+        "end": 497,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 516,
+        "end": 537,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 715,
+        "end": 748,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 750,
+        "end": 774,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 822,
+        "end": 829,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 945,
+        "end": 973,
+        "label": "FULLNAME"
+      }
+    ]
+  },
+  {
+    "text": "5 Experiments and results [SEP] Our SMT implementation is based on Moses [Cite_Footnote_10] , and we use the KenLM (Heafield et al., 2013) tool included in it to estimate our 5-gram language model with modified Kneser-Ney smoothing. Our unsupervised tuning implementation is based on Z-MERT (Zaidan, 2009), and we use FastAlign (Dyer et al., 2013) for word alignment within the joint refinement procedure. Finally, we use the big transformer implementation from fairseq for our NMT system, training with a total batch size of 20,000 tokens across 8 GPUs with the exact same hyperparameters as Ott et al. (2018). [SEP] 10 http://www.statmt.org/moses/",
+    "entities": [
+      {
+        "start": 67,
+        "end": 72,
+        "label": "NAME"
+      },
+      {
+        "start": 73,
+        "end": 91,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 109,
+        "end": 114,
+        "label": "NAME"
+      },
+      {
+        "start": 115,
+        "end": 138,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 175,
+        "end": 231,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 284,
+        "end": 290,
+        "label": "NAME"
+      },
+      {
+        "start": 291,
+        "end": 305,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 318,
+        "end": 327,
+        "label": "NAME"
+      },
+      {
+        "start": 328,
+        "end": 347,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 426,
+        "end": 469,
+        "label": "DESCRIPTION"
+      },
+      {
+        "start": 478,
+        "end": 488,
+        "label": "GENERICMENTION"
+      },
+      {
+        "start": 593,
+        "end": 610,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 621,
+        "end": 649,
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "text": "4 Training on Speech Acts [SEP] The use of P(d) in Equation 3 assumes that dia-logue acts are independent of one another. However, we intuitively know that if someone asks a Y ES -N O - Q UESTION then the response is more likely to be a Y ES -A NSWER rather than, say, C ONVENTIONAL - C LOSING . This intuition is reflected in the bigram transition probabilities obtained from our corpus. [Cite_Footnote_1] [SEP] 1 Due to space constraints, the dialogue act transition ta-ble has been omitted from this paper and is made available at http://www.cs.mu.oz.au/∼edwardi/papers/datransitions.html",
+    "entities": [
+      {
+        "start": 0,
+        "end": 25,
+        "label": "NAME"
+      },
+      {
+        "start": 389,
+        "end": 406,
+        "label": "CITATIONTAG"
+      },
+      {
+        "start": 534,
+        "end": 591,
+        "label": "URL"
+      }
+    ]
+  }
+]
